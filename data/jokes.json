@@ -1,6 +1,7 @@
 {
   "version": 1,
   "music": {
+    "real": "music/the-nights.mp3",
     "doraemon": "music/doraemon.mp3",
     "horrid-henry": "music/horrid-henry.mp3",
     "pokemon": "music/pokemon.mp3",
