@@ -1,0 +1,3273 @@
+{
+  "version": 1,
+  "music": {
+    "doraemon": "music/doraemon.mp3",
+    "horrid-henry": "music/horrid-henry.mp3",
+    "pokemon": "music/pokemon.mp3",
+    "tmkoc": "music/tmkoc.mp3",
+    "tom-and-jerry": "music/tom-and-jerry.mp3",
+    "shinchan": "music/shinchan.mp3"
+  },
+  "jokes": [
+    [
+      "tech",
+      "Why did the computer sneeze?",
+      "It had a bad case of the megabytes."
+    ],
+    [
+      "tech",
+      "Why was the keyboard so confident?",
+      "It knew all the right keys."
+    ],
+    [
+      "tech",
+      "Why did the computer bring a blanket?",
+      "It was getting a little too many cold boots."
+    ],
+    [
+      "tech",
+      "Why did the printer get promoted?",
+      "It always delivered."
+    ],
+    [
+      "tech",
+      "Why did the mouse get invited to the party?",
+      "It clicked with everyone."
+    ],
+    [
+      "tech",
+      "Why did the laptop sit near the window?",
+      "It wanted a better outlook."
+    ],
+    [
+      "tech",
+      "Why did the USB stick go to school?",
+      "It wanted more memory."
+    ],
+    [
+      "tech",
+      "Why did the computer wear glasses?",
+      "It needed better web sight."
+    ],
+    [
+      "tech",
+      "Why was the hard drive emotional?",
+      "It had too many memories."
+    ],
+    [
+      "tech",
+      "Why did the keyboard take a holiday?",
+      "It needed some space."
+    ],
+    [
+      "tech",
+      "What does a computer eat for breakfast?",
+      "Microchips."
+    ],
+    [
+      "tech",
+      "Why did the server stay calm?",
+      "It had good backup."
+    ],
+    [
+      "tech",
+      "Why was the calculator so popular?",
+      "It could always count on itself."
+    ],
+    [
+      "tech",
+      "Why did the monitor go to bed early?",
+      "It was feeling a little screeny."
+    ],
+    [
+      "ai",
+      "I asked AI for a joke about recursion.",
+      "It said, “I can tell you one, but first I’ll tell you the joke about recursion.”"
+    ],
+    [
+      "ai",
+      "Why did the AI bring a ladder?",
+      "It wanted to reach the next level of intelligence."
+    ],
+    [
+      "ai",
+      "I asked an AI to surprise me.",
+      "It asked for the surprise parameters."
+    ],
+    [
+      "ai",
+      "Why did the robot bring a pencil?",
+      "It wanted to draw its own conclusions."
+    ],
+    [
+      "ai",
+      "Why was the neural network good at parties?",
+      "It learned how to pick up patterns."
+    ],
+    [
+      "ai",
+      "I asked AI for a simple answer.",
+      "It gave me a summary, a detailed explanation, and three optional appendices."
+    ],
+    [
+      "ai",
+      "Why did the chatbot get a compliment?",
+      "It had excellent conversational skills."
+    ],
+    [
+      "ai",
+      "Why did the robot go to therapy?",
+      "It had too many unresolved processes."
+    ],
+    [
+      "ai",
+      "What is an AI's favorite snack?",
+      "Data bites."
+    ],
+    [
+      "ai",
+      "Why did the machine learning model go to school?",
+      "It wanted better training."
+    ],
+    [
+      "ai",
+      "Why was the algorithm never late?",
+      "It always followed its schedule."
+    ],
+    [
+      "ai",
+      "I asked an AI to write a poem about batteries.",
+      "It said it needed more power."
+    ],
+    [
+      "internet",
+      "Why did the website cross the road?",
+      "To get to the other site."
+    ],
+    [
+      "internet",
+      "The internet is amazing.",
+      "You can learn quantum physics and how to fold a T-shirt in the same five minutes."
+    ],
+    [
+      "internet",
+      "Why did the browser bring an umbrella?",
+      "It was expecting a little cloud."
+    ],
+    [
+      "internet",
+      "What is the internet's favorite exercise?",
+      "URLing."
+    ],
+    [
+      "internet",
+      "Why did the link take a break?",
+      "It was feeling a little disconnected."
+    ],
+    [
+      "internet",
+      "Why did the webpage blush?",
+      "It saw its source code."
+    ],
+    [
+      "internet",
+      "Why was the search engine so confident?",
+      "It always had an answer."
+    ],
+    [
+      "internet",
+      "Why did the tab refuse to close?",
+      "It said it had unfinished business."
+    ],
+    [
+      "internet",
+      "Why was the homepage so friendly?",
+      "It always welcomed visitors."
+    ],
+    [
+      "internet",
+      "Why did the website bring a suitcase?",
+      "It was going on a domain trip."
+    ],
+    [
+      "internet",
+      "Why did the browser get a trophy?",
+      "It had outstanding tabs."
+    ],
+    [
+      "internet",
+      "Why did the URL go to the gym?",
+      "It wanted a stronger link."
+    ],
+    [
+      "real",
+      "Why did the calendar apply for a job?",
+      "It wanted to make its days count."
+    ],
+    [
+      "real",
+      "Why did the clock get invited to dinner?",
+      "It always had time."
+    ],
+    [
+      "real",
+      "Why did the pencil get promoted?",
+      "It had a sharp mind."
+    ],
+    [
+      "real",
+      "Why did the chair get a raise?",
+      "It was always supporting the team."
+    ],
+    [
+      "real",
+      "Why did the book go to the doctor?",
+      "It had a bad spine."
+    ],
+    [
+      "real",
+      "Why did the bicycle fall over?",
+      "It was two-tired."
+    ],
+    [
+      "real",
+      "Why did the tomato turn red?",
+      "It saw the salad dressing."
+    ],
+    [
+      "real",
+      "Why did the coffee file a police report?",
+      "It got mugged."
+    ],
+    [
+      "real",
+      "Why did the banana go to the doctor?",
+      "It wasn't peeling well."
+    ],
+    [
+      "real",
+      "Why did the scarecrow win an award?",
+      "It was outstanding in its field."
+    ],
+    [
+      "real",
+      "Why did the math book look sad?",
+      "It had too many problems."
+    ],
+    [
+      "real",
+      "Why did the cookie go to the hospital?",
+      "It felt crummy."
+    ],
+    [
+      "real",
+      "Why did the orange stop rolling?",
+      "It ran out of juice."
+    ],
+    [
+      "real",
+      "Why did the music teacher need a ladder?",
+      "To reach the high notes."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Anywhere Door to homework?",
+      "Because Anywhere Door sounded like the fastest way to fix homework—until Nobita made a plan."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Anywhere Door to school mornings?",
+      "Because Nobita thought Anywhere Door would make school mornings effortless. Doraemon knew better."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Anywhere Door to snack time?",
+      "Because Anywhere Door was available, and Nobita had already decided that was a good enough reason."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Anywhere Door to a rainy afternoon?",
+      "Because Doraemon had learned that a rainy afternoon was easier when he kept one eye on the pocket."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Anywhere Door to a class test?",
+      "Because Nobita wanted a shortcut; Doraemon wanted him to learn that shortcuts have instructions too."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Anywhere Door to cleaning day?",
+      "Because the real problem was not cleaning day; it was Nobita pressing buttons before asking questions."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Anywhere Door to a surprise visit?",
+      "Because Doraemon said Anywhere Door could help, while Nobita heard “solve everything.”"
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Anywhere Door to a missing pencil?",
+      "Because it solved a missing pencil in seconds and gave Nobita a brand-new problem in return."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Anywhere Door to being late?",
+      "Because Nobita wanted the future to be convenient, especially during being late."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Anywhere Door to a family picnic?",
+      "Because Doraemon knew every gadget has a limit—and Nobita always finds it."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Machine to homework?",
+      "Because Time Machine sounded like the fastest way to fix homework—until Nobita made a plan."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Machine to school mornings?",
+      "Because Nobita thought Time Machine would make school mornings effortless. Doraemon knew better."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Machine to snack time?",
+      "Because Time Machine was available, and Nobita had already decided that was a good enough reason."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Machine to a rainy afternoon?",
+      "Because Doraemon had learned that a rainy afternoon was easier when he kept one eye on the pocket."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Machine to a class test?",
+      "Because Nobita wanted a shortcut; Doraemon wanted him to learn that shortcuts have instructions too."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Machine to cleaning day?",
+      "Because the real problem was not cleaning day; it was Nobita pressing buttons before asking questions."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Machine to a surprise visit?",
+      "Because Doraemon said Time Machine could help, while Nobita heard “solve everything.”"
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Machine to a missing pencil?",
+      "Because it solved a missing pencil in seconds and gave Nobita a brand-new problem in return."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Machine to being late?",
+      "Because Nobita wanted the future to be convenient, especially during being late."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Machine to a family picnic?",
+      "Because Doraemon knew every gadget has a limit—and Nobita always finds it."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Small Light to homework?",
+      "Because Small Light sounded like the fastest way to fix homework—until Nobita made a plan."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Small Light to school mornings?",
+      "Because Nobita thought Small Light would make school mornings effortless. Doraemon knew better."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Small Light to snack time?",
+      "Because Small Light was available, and Nobita had already decided that was a good enough reason."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Small Light to a rainy afternoon?",
+      "Because Doraemon had learned that a rainy afternoon was easier when he kept one eye on the pocket."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Small Light to a class test?",
+      "Because Nobita wanted a shortcut; Doraemon wanted him to learn that shortcuts have instructions too."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Small Light to cleaning day?",
+      "Because the real problem was not cleaning day; it was Nobita pressing buttons before asking questions."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Small Light to a surprise visit?",
+      "Because Doraemon said Small Light could help, while Nobita heard “solve everything.”"
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Small Light to a missing pencil?",
+      "Because it solved a missing pencil in seconds and gave Nobita a brand-new problem in return."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Small Light to being late?",
+      "Because Nobita wanted the future to be convenient, especially during being late."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Small Light to a family picnic?",
+      "Because Doraemon knew every gadget has a limit—and Nobita always finds it."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Big Light to homework?",
+      "Because Big Light sounded like the fastest way to fix homework—until Nobita made a plan."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Big Light to school mornings?",
+      "Because Nobita thought Big Light would make school mornings effortless. Doraemon knew better."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Big Light to snack time?",
+      "Because Big Light was available, and Nobita had already decided that was a good enough reason."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Big Light to a rainy afternoon?",
+      "Because Doraemon had learned that a rainy afternoon was easier when he kept one eye on the pocket."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Big Light to a class test?",
+      "Because Nobita wanted a shortcut; Doraemon wanted him to learn that shortcuts have instructions too."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Big Light to cleaning day?",
+      "Because the real problem was not cleaning day; it was Nobita pressing buttons before asking questions."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Big Light to a surprise visit?",
+      "Because Doraemon said Big Light could help, while Nobita heard “solve everything.”"
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Big Light to a missing pencil?",
+      "Because it solved a missing pencil in seconds and gave Nobita a brand-new problem in return."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Big Light to being late?",
+      "Because Nobita wanted the future to be convenient, especially during being late."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Big Light to a family picnic?",
+      "Because Doraemon knew every gadget has a limit—and Nobita always finds it."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Take-copter to homework?",
+      "Because Take-copter sounded like the fastest way to fix homework—until Nobita made a plan."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Take-copter to school mornings?",
+      "Because Nobita thought Take-copter would make school mornings effortless. Doraemon knew better."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Take-copter to snack time?",
+      "Because Take-copter was available, and Nobita had already decided that was a good enough reason."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Take-copter to a rainy afternoon?",
+      "Because Doraemon had learned that a rainy afternoon was easier when he kept one eye on the pocket."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Take-copter to a class test?",
+      "Because Nobita wanted a shortcut; Doraemon wanted him to learn that shortcuts have instructions too."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Take-copter to cleaning day?",
+      "Because the real problem was not cleaning day; it was Nobita pressing buttons before asking questions."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Take-copter to a surprise visit?",
+      "Because Doraemon said Take-copter could help, while Nobita heard “solve everything.”"
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Take-copter to a missing pencil?",
+      "Because it solved a missing pencil in seconds and gave Nobita a brand-new problem in return."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Take-copter to being late?",
+      "Because Nobita wanted the future to be convenient, especially during being late."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Take-copter to a family picnic?",
+      "Because Doraemon knew every gadget has a limit—and Nobita always finds it."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Memory Bread to homework?",
+      "Because Memory Bread sounded like the fastest way to fix homework—until Nobita made a plan."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Memory Bread to school mornings?",
+      "Because Nobita thought Memory Bread would make school mornings effortless. Doraemon knew better."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Memory Bread to snack time?",
+      "Because Memory Bread was available, and Nobita had already decided that was a good enough reason."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Memory Bread to a rainy afternoon?",
+      "Because Doraemon had learned that a rainy afternoon was easier when he kept one eye on the pocket."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Memory Bread to a class test?",
+      "Because Nobita wanted a shortcut; Doraemon wanted him to learn that shortcuts have instructions too."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Memory Bread to cleaning day?",
+      "Because the real problem was not cleaning day; it was Nobita pressing buttons before asking questions."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Memory Bread to a surprise visit?",
+      "Because Doraemon said Memory Bread could help, while Nobita heard “solve everything.”"
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Memory Bread to a missing pencil?",
+      "Because it solved a missing pencil in seconds and gave Nobita a brand-new problem in return."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Memory Bread to being late?",
+      "Because Nobita wanted the future to be convenient, especially during being late."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Memory Bread to a family picnic?",
+      "Because Doraemon knew every gadget has a limit—and Nobita always finds it."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Translation Jelly to homework?",
+      "Because Translation Jelly sounded like the fastest way to fix homework—until Nobita made a plan."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Translation Jelly to school mornings?",
+      "Because Nobita thought Translation Jelly would make school mornings effortless. Doraemon knew better."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Translation Jelly to snack time?",
+      "Because Translation Jelly was available, and Nobita had already decided that was a good enough reason."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Translation Jelly to a rainy afternoon?",
+      "Because Doraemon had learned that a rainy afternoon was easier when he kept one eye on the pocket."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Translation Jelly to a class test?",
+      "Because Nobita wanted a shortcut; Doraemon wanted him to learn that shortcuts have instructions too."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Translation Jelly to cleaning day?",
+      "Because the real problem was not cleaning day; it was Nobita pressing buttons before asking questions."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Translation Jelly to a surprise visit?",
+      "Because Doraemon said Translation Jelly could help, while Nobita heard “solve everything.”"
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Translation Jelly to a missing pencil?",
+      "Because it solved a missing pencil in seconds and gave Nobita a brand-new problem in return."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Translation Jelly to being late?",
+      "Because Nobita wanted the future to be convenient, especially during being late."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Translation Jelly to a family picnic?",
+      "Because Doraemon knew every gadget has a limit—and Nobita always finds it."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Furoshiki to homework?",
+      "Because Time Furoshiki sounded like the fastest way to fix homework—until Nobita made a plan."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Furoshiki to school mornings?",
+      "Because Nobita thought Time Furoshiki would make school mornings effortless. Doraemon knew better."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Furoshiki to snack time?",
+      "Because Time Furoshiki was available, and Nobita had already decided that was a good enough reason."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Furoshiki to a rainy afternoon?",
+      "Because Doraemon had learned that a rainy afternoon was easier when he kept one eye on the pocket."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Furoshiki to a class test?",
+      "Because Nobita wanted a shortcut; Doraemon wanted him to learn that shortcuts have instructions too."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Furoshiki to cleaning day?",
+      "Because the real problem was not cleaning day; it was Nobita pressing buttons before asking questions."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Furoshiki to a surprise visit?",
+      "Because Doraemon said Time Furoshiki could help, while Nobita heard “solve everything.”"
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Furoshiki to a missing pencil?",
+      "Because it solved a missing pencil in seconds and gave Nobita a brand-new problem in return."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Furoshiki to being late?",
+      "Because Nobita wanted the future to be convenient, especially during being late."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Time Furoshiki to a family picnic?",
+      "Because Doraemon knew every gadget has a limit—and Nobita always finds it."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Invisible Cape to homework?",
+      "Because Invisible Cape sounded like the fastest way to fix homework—until Nobita made a plan."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Invisible Cape to school mornings?",
+      "Because Nobita thought Invisible Cape would make school mornings effortless. Doraemon knew better."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Invisible Cape to snack time?",
+      "Because Invisible Cape was available, and Nobita had already decided that was a good enough reason."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Invisible Cape to a rainy afternoon?",
+      "Because Doraemon had learned that a rainy afternoon was easier when he kept one eye on the pocket."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Invisible Cape to a class test?",
+      "Because Nobita wanted a shortcut; Doraemon wanted him to learn that shortcuts have instructions too."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Invisible Cape to cleaning day?",
+      "Because the real problem was not cleaning day; it was Nobita pressing buttons before asking questions."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Invisible Cape to a surprise visit?",
+      "Because Doraemon said Invisible Cape could help, while Nobita heard “solve everything.”"
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Invisible Cape to a missing pencil?",
+      "Because it solved a missing pencil in seconds and gave Nobita a brand-new problem in return."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Invisible Cape to being late?",
+      "Because Nobita wanted the future to be convenient, especially during being late."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Invisible Cape to a family picnic?",
+      "Because Doraemon knew every gadget has a limit—and Nobita always finds it."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Gulliver Tunnel to homework?",
+      "Because Gulliver Tunnel sounded like the fastest way to fix homework—until Nobita made a plan."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Gulliver Tunnel to school mornings?",
+      "Because Nobita thought Gulliver Tunnel would make school mornings effortless. Doraemon knew better."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Gulliver Tunnel to snack time?",
+      "Because Gulliver Tunnel was available, and Nobita had already decided that was a good enough reason."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Gulliver Tunnel to a rainy afternoon?",
+      "Because Doraemon had learned that a rainy afternoon was easier when he kept one eye on the pocket."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Gulliver Tunnel to a class test?",
+      "Because Nobita wanted a shortcut; Doraemon wanted him to learn that shortcuts have instructions too."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Gulliver Tunnel to cleaning day?",
+      "Because the real problem was not cleaning day; it was Nobita pressing buttons before asking questions."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Gulliver Tunnel to a surprise visit?",
+      "Because Doraemon said Gulliver Tunnel could help, while Nobita heard “solve everything.”"
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Gulliver Tunnel to a missing pencil?",
+      "Because it solved a missing pencil in seconds and gave Nobita a brand-new problem in return."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Gulliver Tunnel to being late?",
+      "Because Nobita wanted the future to be convenient, especially during being late."
+    ],
+    [
+      "doraemon",
+      "Why did Doraemon bring the Gulliver Tunnel to a family picnic?",
+      "Because Doraemon knew every gadget has a limit—and Nobita always finds it."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the alarm clock during Monday morning?",
+      "He said it was safer from adults who might have sensible ideas."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the alarm clock during homework time?",
+      "He was testing whether responsibility could survive without being found."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the alarm clock during bedtime?",
+      "He called it a strategic retreat. Everyone else called it hiding."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the alarm clock during school assembly?",
+      "He wanted one more minute before anyone could say, “Henry, behave.”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the alarm clock during room cleaning?",
+      "He claimed the object had joined his secret rebellion."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the alarm clock during family dinner?",
+      "He believed rules were easier to ignore when the rule book was missing."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the alarm clock during Saturday morning?",
+      "He said he was conducting an experiment. The experiment was called “What happens if I do not?”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the alarm clock during a surprise test?",
+      "He wanted Peter to find it first, because then the argument would be more interesting."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the alarm clock during a rainy day?",
+      "He was saving it for an emergency, and Henry considered boredom an emergency."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the alarm clock during the moment Peter walked in?",
+      "He said the plan was perfect because he had not written down any evidence."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the homework diary during Monday morning?",
+      "He said it was safer from adults who might have sensible ideas."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the homework diary during homework time?",
+      "He was testing whether responsibility could survive without being found."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the homework diary during bedtime?",
+      "He called it a strategic retreat. Everyone else called it hiding."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the homework diary during school assembly?",
+      "He wanted one more minute before anyone could say, “Henry, behave.”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the homework diary during room cleaning?",
+      "He claimed the object had joined his secret rebellion."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the homework diary during family dinner?",
+      "He believed rules were easier to ignore when the rule book was missing."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the homework diary during Saturday morning?",
+      "He said he was conducting an experiment. The experiment was called “What happens if I do not?”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the homework diary during a surprise test?",
+      "He wanted Peter to find it first, because then the argument would be more interesting."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the homework diary during a rainy day?",
+      "He was saving it for an emergency, and Henry considered boredom an emergency."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the homework diary during the moment Peter walked in?",
+      "He said the plan was perfect because he had not written down any evidence."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the schoolbag during Monday morning?",
+      "He said it was safer from adults who might have sensible ideas."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the schoolbag during homework time?",
+      "He was testing whether responsibility could survive without being found."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the schoolbag during bedtime?",
+      "He called it a strategic retreat. Everyone else called it hiding."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the schoolbag during school assembly?",
+      "He wanted one more minute before anyone could say, “Henry, behave.”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the schoolbag during room cleaning?",
+      "He claimed the object had joined his secret rebellion."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the schoolbag during family dinner?",
+      "He believed rules were easier to ignore when the rule book was missing."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the schoolbag during Saturday morning?",
+      "He said he was conducting an experiment. The experiment was called “What happens if I do not?”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the schoolbag during a surprise test?",
+      "He wanted Peter to find it first, because then the argument would be more interesting."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the schoolbag during a rainy day?",
+      "He was saving it for an emergency, and Henry considered boredom an emergency."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the schoolbag during the moment Peter walked in?",
+      "He said the plan was perfect because he had not written down any evidence."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the cleaning cloth during Monday morning?",
+      "He said it was safer from adults who might have sensible ideas."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the cleaning cloth during homework time?",
+      "He was testing whether responsibility could survive without being found."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the cleaning cloth during bedtime?",
+      "He called it a strategic retreat. Everyone else called it hiding."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the cleaning cloth during school assembly?",
+      "He wanted one more minute before anyone could say, “Henry, behave.”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the cleaning cloth during room cleaning?",
+      "He claimed the object had joined his secret rebellion."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the cleaning cloth during family dinner?",
+      "He believed rules were easier to ignore when the rule book was missing."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the cleaning cloth during Saturday morning?",
+      "He said he was conducting an experiment. The experiment was called “What happens if I do not?”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the cleaning cloth during a surprise test?",
+      "He wanted Peter to find it first, because then the argument would be more interesting."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the cleaning cloth during a rainy day?",
+      "He was saving it for an emergency, and Henry considered boredom an emergency."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the cleaning cloth during the moment Peter walked in?",
+      "He said the plan was perfect because he had not written down any evidence."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the lunch box during Monday morning?",
+      "He said it was safer from adults who might have sensible ideas."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the lunch box during homework time?",
+      "He was testing whether responsibility could survive without being found."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the lunch box during bedtime?",
+      "He called it a strategic retreat. Everyone else called it hiding."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the lunch box during school assembly?",
+      "He wanted one more minute before anyone could say, “Henry, behave.”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the lunch box during room cleaning?",
+      "He claimed the object had joined his secret rebellion."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the lunch box during family dinner?",
+      "He believed rules were easier to ignore when the rule book was missing."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the lunch box during Saturday morning?",
+      "He said he was conducting an experiment. The experiment was called “What happens if I do not?”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the lunch box during a surprise test?",
+      "He wanted Peter to find it first, because then the argument would be more interesting."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the lunch box during a rainy day?",
+      "He was saving it for an emergency, and Henry considered boredom an emergency."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the lunch box during the moment Peter walked in?",
+      "He said the plan was perfect because he had not written down any evidence."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the rule book during Monday morning?",
+      "He said it was safer from adults who might have sensible ideas."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the rule book during homework time?",
+      "He was testing whether responsibility could survive without being found."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the rule book during bedtime?",
+      "He called it a strategic retreat. Everyone else called it hiding."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the rule book during school assembly?",
+      "He wanted one more minute before anyone could say, “Henry, behave.”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the rule book during room cleaning?",
+      "He claimed the object had joined his secret rebellion."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the rule book during family dinner?",
+      "He believed rules were easier to ignore when the rule book was missing."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the rule book during Saturday morning?",
+      "He said he was conducting an experiment. The experiment was called “What happens if I do not?”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the rule book during a surprise test?",
+      "He wanted Peter to find it first, because then the argument would be more interesting."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the rule book during a rainy day?",
+      "He was saving it for an emergency, and Henry considered boredom an emergency."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the rule book during the moment Peter walked in?",
+      "He said the plan was perfect because he had not written down any evidence."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the remote control during Monday morning?",
+      "He said it was safer from adults who might have sensible ideas."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the remote control during homework time?",
+      "He was testing whether responsibility could survive without being found."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the remote control during bedtime?",
+      "He called it a strategic retreat. Everyone else called it hiding."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the remote control during school assembly?",
+      "He wanted one more minute before anyone could say, “Henry, behave.”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the remote control during room cleaning?",
+      "He claimed the object had joined his secret rebellion."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the remote control during family dinner?",
+      "He believed rules were easier to ignore when the rule book was missing."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the remote control during Saturday morning?",
+      "He said he was conducting an experiment. The experiment was called “What happens if I do not?”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the remote control during a surprise test?",
+      "He wanted Peter to find it first, because then the argument would be more interesting."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the remote control during a rainy day?",
+      "He was saving it for an emergency, and Henry considered boredom an emergency."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the remote control during the moment Peter walked in?",
+      "He said the plan was perfect because he had not written down any evidence."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the toy box during Monday morning?",
+      "He said it was safer from adults who might have sensible ideas."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the toy box during homework time?",
+      "He was testing whether responsibility could survive without being found."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the toy box during bedtime?",
+      "He called it a strategic retreat. Everyone else called it hiding."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the toy box during school assembly?",
+      "He wanted one more minute before anyone could say, “Henry, behave.”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the toy box during room cleaning?",
+      "He claimed the object had joined his secret rebellion."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the toy box during family dinner?",
+      "He believed rules were easier to ignore when the rule book was missing."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the toy box during Saturday morning?",
+      "He said he was conducting an experiment. The experiment was called “What happens if I do not?”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the toy box during a surprise test?",
+      "He wanted Peter to find it first, because then the argument would be more interesting."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the toy box during a rainy day?",
+      "He was saving it for an emergency, and Henry considered boredom an emergency."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the toy box during the moment Peter walked in?",
+      "He said the plan was perfect because he had not written down any evidence."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the pencil case during Monday morning?",
+      "He said it was safer from adults who might have sensible ideas."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the pencil case during homework time?",
+      "He was testing whether responsibility could survive without being found."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the pencil case during bedtime?",
+      "He called it a strategic retreat. Everyone else called it hiding."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the pencil case during school assembly?",
+      "He wanted one more minute before anyone could say, “Henry, behave.”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the pencil case during room cleaning?",
+      "He claimed the object had joined his secret rebellion."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the pencil case during family dinner?",
+      "He believed rules were easier to ignore when the rule book was missing."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the pencil case during Saturday morning?",
+      "He said he was conducting an experiment. The experiment was called “What happens if I do not?”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the pencil case during a surprise test?",
+      "He wanted Peter to find it first, because then the argument would be more interesting."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the pencil case during a rainy day?",
+      "He was saving it for an emergency, and Henry considered boredom an emergency."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the pencil case during the moment Peter walked in?",
+      "He said the plan was perfect because he had not written down any evidence."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the bedroom door during Monday morning?",
+      "He said it was safer from adults who might have sensible ideas."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the bedroom door during homework time?",
+      "He was testing whether responsibility could survive without being found."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the bedroom door during bedtime?",
+      "He called it a strategic retreat. Everyone else called it hiding."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the bedroom door during school assembly?",
+      "He wanted one more minute before anyone could say, “Henry, behave.”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the bedroom door during room cleaning?",
+      "He claimed the object had joined his secret rebellion."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the bedroom door during family dinner?",
+      "He believed rules were easier to ignore when the rule book was missing."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the bedroom door during Saturday morning?",
+      "He said he was conducting an experiment. The experiment was called “What happens if I do not?”"
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the bedroom door during a surprise test?",
+      "He wanted Peter to find it first, because then the argument would be more interesting."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the bedroom door during a rainy day?",
+      "He was saving it for an emergency, and Henry considered boredom an emergency."
+    ],
+    [
+      "horrid-henry",
+      "Why did Horrid Henry hide the bedroom door during the moment Peter walked in?",
+      "He said the plan was perfect because he had not written down any evidence."
+    ],
+    [
+      "pokemon",
+      "Why did Pikachu visit the gym?",
+      "It heard there was a challenge and immediately volunteered for the snack break."
+    ],
+    [
+      "pokemon",
+      "Why did Pikachu visit the kitchen?",
+      "It wanted training, but the nearest thing to a workout was carrying its lunch."
+    ],
+    [
+      "pokemon",
+      "Why did Pikachu visit school?",
+      "It was looking for a battle and found an argument about where to sit instead."
+    ],
+    [
+      "pokemon",
+      "Why did Pikachu visit a rainy campsite?",
+      "It thought the weather called for a move nobody had prepared for."
+    ],
+    [
+      "pokemon",
+      "Why did Pikachu visit a library?",
+      "It promised to behave, which made everyone check the Pokédex twice."
+    ],
+    [
+      "pokemon",
+      "Why did Pikachu visit a Pokémon Center?",
+      "It wanted to learn something new, preferably without being asked to take notes."
+    ],
+    [
+      "pokemon",
+      "Why did Pikachu visit a picnic?",
+      "It arrived hungry and accidentally made the whole visit about food."
+    ],
+    [
+      "pokemon",
+      "Why did Pikachu visit a bus stop?",
+      "It was searching for a rare item and found a very ordinary sandwich."
+    ],
+    [
+      "pokemon",
+      "Why did Pikachu visit the beach?",
+      "It heard someone shout “Go!” and assumed the adventure had started."
+    ],
+    [
+      "pokemon",
+      "Why did Pikachu visit a talent show?",
+      "It wanted a quiet day, but then a trainer showed up with a plan."
+    ],
+    [
+      "pokemon",
+      "Why did Charizard visit the gym?",
+      "It heard there was a challenge and immediately volunteered for the snack break."
+    ],
+    [
+      "pokemon",
+      "Why did Charizard visit the kitchen?",
+      "It wanted training, but the nearest thing to a workout was carrying its lunch."
+    ],
+    [
+      "pokemon",
+      "Why did Charizard visit school?",
+      "It was looking for a battle and found an argument about where to sit instead."
+    ],
+    [
+      "pokemon",
+      "Why did Charizard visit a rainy campsite?",
+      "It thought the weather called for a move nobody had prepared for."
+    ],
+    [
+      "pokemon",
+      "Why did Charizard visit a library?",
+      "It promised to behave, which made everyone check the Pokédex twice."
+    ],
+    [
+      "pokemon",
+      "Why did Charizard visit a Pokémon Center?",
+      "It wanted to learn something new, preferably without being asked to take notes."
+    ],
+    [
+      "pokemon",
+      "Why did Charizard visit a picnic?",
+      "It arrived hungry and accidentally made the whole visit about food."
+    ],
+    [
+      "pokemon",
+      "Why did Charizard visit a bus stop?",
+      "It was searching for a rare item and found a very ordinary sandwich."
+    ],
+    [
+      "pokemon",
+      "Why did Charizard visit the beach?",
+      "It heard someone shout “Go!” and assumed the adventure had started."
+    ],
+    [
+      "pokemon",
+      "Why did Charizard visit a talent show?",
+      "It wanted a quiet day, but then a trainer showed up with a plan."
+    ],
+    [
+      "pokemon",
+      "Why did Bulbasaur visit the gym?",
+      "It heard there was a challenge and immediately volunteered for the snack break."
+    ],
+    [
+      "pokemon",
+      "Why did Bulbasaur visit the kitchen?",
+      "It wanted training, but the nearest thing to a workout was carrying its lunch."
+    ],
+    [
+      "pokemon",
+      "Why did Bulbasaur visit school?",
+      "It was looking for a battle and found an argument about where to sit instead."
+    ],
+    [
+      "pokemon",
+      "Why did Bulbasaur visit a rainy campsite?",
+      "It thought the weather called for a move nobody had prepared for."
+    ],
+    [
+      "pokemon",
+      "Why did Bulbasaur visit a library?",
+      "It promised to behave, which made everyone check the Pokédex twice."
+    ],
+    [
+      "pokemon",
+      "Why did Bulbasaur visit a Pokémon Center?",
+      "It wanted to learn something new, preferably without being asked to take notes."
+    ],
+    [
+      "pokemon",
+      "Why did Bulbasaur visit a picnic?",
+      "It arrived hungry and accidentally made the whole visit about food."
+    ],
+    [
+      "pokemon",
+      "Why did Bulbasaur visit a bus stop?",
+      "It was searching for a rare item and found a very ordinary sandwich."
+    ],
+    [
+      "pokemon",
+      "Why did Bulbasaur visit the beach?",
+      "It heard someone shout “Go!” and assumed the adventure had started."
+    ],
+    [
+      "pokemon",
+      "Why did Bulbasaur visit a talent show?",
+      "It wanted a quiet day, but then a trainer showed up with a plan."
+    ],
+    [
+      "pokemon",
+      "Why did Squirtle visit the gym?",
+      "It heard there was a challenge and immediately volunteered for the snack break."
+    ],
+    [
+      "pokemon",
+      "Why did Squirtle visit the kitchen?",
+      "It wanted training, but the nearest thing to a workout was carrying its lunch."
+    ],
+    [
+      "pokemon",
+      "Why did Squirtle visit school?",
+      "It was looking for a battle and found an argument about where to sit instead."
+    ],
+    [
+      "pokemon",
+      "Why did Squirtle visit a rainy campsite?",
+      "It thought the weather called for a move nobody had prepared for."
+    ],
+    [
+      "pokemon",
+      "Why did Squirtle visit a library?",
+      "It promised to behave, which made everyone check the Pokédex twice."
+    ],
+    [
+      "pokemon",
+      "Why did Squirtle visit a Pokémon Center?",
+      "It wanted to learn something new, preferably without being asked to take notes."
+    ],
+    [
+      "pokemon",
+      "Why did Squirtle visit a picnic?",
+      "It arrived hungry and accidentally made the whole visit about food."
+    ],
+    [
+      "pokemon",
+      "Why did Squirtle visit a bus stop?",
+      "It was searching for a rare item and found a very ordinary sandwich."
+    ],
+    [
+      "pokemon",
+      "Why did Squirtle visit the beach?",
+      "It heard someone shout “Go!” and assumed the adventure had started."
+    ],
+    [
+      "pokemon",
+      "Why did Squirtle visit a talent show?",
+      "It wanted a quiet day, but then a trainer showed up with a plan."
+    ],
+    [
+      "pokemon",
+      "Why did Jigglypuff visit the gym?",
+      "It heard there was a challenge and immediately volunteered for the snack break."
+    ],
+    [
+      "pokemon",
+      "Why did Jigglypuff visit the kitchen?",
+      "It wanted training, but the nearest thing to a workout was carrying its lunch."
+    ],
+    [
+      "pokemon",
+      "Why did Jigglypuff visit school?",
+      "It was looking for a battle and found an argument about where to sit instead."
+    ],
+    [
+      "pokemon",
+      "Why did Jigglypuff visit a rainy campsite?",
+      "It thought the weather called for a move nobody had prepared for."
+    ],
+    [
+      "pokemon",
+      "Why did Jigglypuff visit a library?",
+      "It promised to behave, which made everyone check the Pokédex twice."
+    ],
+    [
+      "pokemon",
+      "Why did Jigglypuff visit a Pokémon Center?",
+      "It wanted to learn something new, preferably without being asked to take notes."
+    ],
+    [
+      "pokemon",
+      "Why did Jigglypuff visit a picnic?",
+      "It arrived hungry and accidentally made the whole visit about food."
+    ],
+    [
+      "pokemon",
+      "Why did Jigglypuff visit a bus stop?",
+      "It was searching for a rare item and found a very ordinary sandwich."
+    ],
+    [
+      "pokemon",
+      "Why did Jigglypuff visit the beach?",
+      "It heard someone shout “Go!” and assumed the adventure had started."
+    ],
+    [
+      "pokemon",
+      "Why did Jigglypuff visit a talent show?",
+      "It wanted a quiet day, but then a trainer showed up with a plan."
+    ],
+    [
+      "pokemon",
+      "Why did Eevee visit the gym?",
+      "It heard there was a challenge and immediately volunteered for the snack break."
+    ],
+    [
+      "pokemon",
+      "Why did Eevee visit the kitchen?",
+      "It wanted training, but the nearest thing to a workout was carrying its lunch."
+    ],
+    [
+      "pokemon",
+      "Why did Eevee visit school?",
+      "It was looking for a battle and found an argument about where to sit instead."
+    ],
+    [
+      "pokemon",
+      "Why did Eevee visit a rainy campsite?",
+      "It thought the weather called for a move nobody had prepared for."
+    ],
+    [
+      "pokemon",
+      "Why did Eevee visit a library?",
+      "It promised to behave, which made everyone check the Pokédex twice."
+    ],
+    [
+      "pokemon",
+      "Why did Eevee visit a Pokémon Center?",
+      "It wanted to learn something new, preferably without being asked to take notes."
+    ],
+    [
+      "pokemon",
+      "Why did Eevee visit a picnic?",
+      "It arrived hungry and accidentally made the whole visit about food."
+    ],
+    [
+      "pokemon",
+      "Why did Eevee visit a bus stop?",
+      "It was searching for a rare item and found a very ordinary sandwich."
+    ],
+    [
+      "pokemon",
+      "Why did Eevee visit the beach?",
+      "It heard someone shout “Go!” and assumed the adventure had started."
+    ],
+    [
+      "pokemon",
+      "Why did Eevee visit a talent show?",
+      "It wanted a quiet day, but then a trainer showed up with a plan."
+    ],
+    [
+      "pokemon",
+      "Why did Snorlax visit the gym?",
+      "It heard there was a challenge and immediately volunteered for the snack break."
+    ],
+    [
+      "pokemon",
+      "Why did Snorlax visit the kitchen?",
+      "It wanted training, but the nearest thing to a workout was carrying its lunch."
+    ],
+    [
+      "pokemon",
+      "Why did Snorlax visit school?",
+      "It was looking for a battle and found an argument about where to sit instead."
+    ],
+    [
+      "pokemon",
+      "Why did Snorlax visit a rainy campsite?",
+      "It thought the weather called for a move nobody had prepared for."
+    ],
+    [
+      "pokemon",
+      "Why did Snorlax visit a library?",
+      "It promised to behave, which made everyone check the Pokédex twice."
+    ],
+    [
+      "pokemon",
+      "Why did Snorlax visit a Pokémon Center?",
+      "It wanted to learn something new, preferably without being asked to take notes."
+    ],
+    [
+      "pokemon",
+      "Why did Snorlax visit a picnic?",
+      "It arrived hungry and accidentally made the whole visit about food."
+    ],
+    [
+      "pokemon",
+      "Why did Snorlax visit a bus stop?",
+      "It was searching for a rare item and found a very ordinary sandwich."
+    ],
+    [
+      "pokemon",
+      "Why did Snorlax visit the beach?",
+      "It heard someone shout “Go!” and assumed the adventure had started."
+    ],
+    [
+      "pokemon",
+      "Why did Snorlax visit a talent show?",
+      "It wanted a quiet day, but then a trainer showed up with a plan."
+    ],
+    [
+      "pokemon",
+      "Why did Psyduck visit the gym?",
+      "It heard there was a challenge and immediately volunteered for the snack break."
+    ],
+    [
+      "pokemon",
+      "Why did Psyduck visit the kitchen?",
+      "It wanted training, but the nearest thing to a workout was carrying its lunch."
+    ],
+    [
+      "pokemon",
+      "Why did Psyduck visit school?",
+      "It was looking for a battle and found an argument about where to sit instead."
+    ],
+    [
+      "pokemon",
+      "Why did Psyduck visit a rainy campsite?",
+      "It thought the weather called for a move nobody had prepared for."
+    ],
+    [
+      "pokemon",
+      "Why did Psyduck visit a library?",
+      "It promised to behave, which made everyone check the Pokédex twice."
+    ],
+    [
+      "pokemon",
+      "Why did Psyduck visit a Pokémon Center?",
+      "It wanted to learn something new, preferably without being asked to take notes."
+    ],
+    [
+      "pokemon",
+      "Why did Psyduck visit a picnic?",
+      "It arrived hungry and accidentally made the whole visit about food."
+    ],
+    [
+      "pokemon",
+      "Why did Psyduck visit a bus stop?",
+      "It was searching for a rare item and found a very ordinary sandwich."
+    ],
+    [
+      "pokemon",
+      "Why did Psyduck visit the beach?",
+      "It heard someone shout “Go!” and assumed the adventure had started."
+    ],
+    [
+      "pokemon",
+      "Why did Psyduck visit a talent show?",
+      "It wanted a quiet day, but then a trainer showed up with a plan."
+    ],
+    [
+      "pokemon",
+      "Why did Meowth visit the gym?",
+      "It heard there was a challenge and immediately volunteered for the snack break."
+    ],
+    [
+      "pokemon",
+      "Why did Meowth visit the kitchen?",
+      "It wanted training, but the nearest thing to a workout was carrying its lunch."
+    ],
+    [
+      "pokemon",
+      "Why did Meowth visit school?",
+      "It was looking for a battle and found an argument about where to sit instead."
+    ],
+    [
+      "pokemon",
+      "Why did Meowth visit a rainy campsite?",
+      "It thought the weather called for a move nobody had prepared for."
+    ],
+    [
+      "pokemon",
+      "Why did Meowth visit a library?",
+      "It promised to behave, which made everyone check the Pokédex twice."
+    ],
+    [
+      "pokemon",
+      "Why did Meowth visit a Pokémon Center?",
+      "It wanted to learn something new, preferably without being asked to take notes."
+    ],
+    [
+      "pokemon",
+      "Why did Meowth visit a picnic?",
+      "It arrived hungry and accidentally made the whole visit about food."
+    ],
+    [
+      "pokemon",
+      "Why did Meowth visit a bus stop?",
+      "It was searching for a rare item and found a very ordinary sandwich."
+    ],
+    [
+      "pokemon",
+      "Why did Meowth visit the beach?",
+      "It heard someone shout “Go!” and assumed the adventure had started."
+    ],
+    [
+      "pokemon",
+      "Why did Meowth visit a talent show?",
+      "It wanted a quiet day, but then a trainer showed up with a plan."
+    ],
+    [
+      "pokemon",
+      "Why did Magikarp visit the gym?",
+      "It heard there was a challenge and immediately volunteered for the snack break."
+    ],
+    [
+      "pokemon",
+      "Why did Magikarp visit the kitchen?",
+      "It wanted training, but the nearest thing to a workout was carrying its lunch."
+    ],
+    [
+      "pokemon",
+      "Why did Magikarp visit school?",
+      "It was looking for a battle and found an argument about where to sit instead."
+    ],
+    [
+      "pokemon",
+      "Why did Magikarp visit a rainy campsite?",
+      "It thought the weather called for a move nobody had prepared for."
+    ],
+    [
+      "pokemon",
+      "Why did Magikarp visit a library?",
+      "It promised to behave, which made everyone check the Pokédex twice."
+    ],
+    [
+      "pokemon",
+      "Why did Magikarp visit a Pokémon Center?",
+      "It wanted to learn something new, preferably without being asked to take notes."
+    ],
+    [
+      "pokemon",
+      "Why did Magikarp visit a picnic?",
+      "It arrived hungry and accidentally made the whole visit about food."
+    ],
+    [
+      "pokemon",
+      "Why did Magikarp visit a bus stop?",
+      "It was searching for a rare item and found a very ordinary sandwich."
+    ],
+    [
+      "pokemon",
+      "Why did Magikarp visit the beach?",
+      "It heard someone shout “Go!” and assumed the adventure had started."
+    ],
+    [
+      "pokemon",
+      "Why did Magikarp visit a talent show?",
+      "It wanted a quiet day, but then a trainer showed up with a plan."
+    ],
+    [
+      "tmkoc",
+      "Why did Jethalal arrive early for Gokuldham society meeting?",
+      "Because a five-minute discussion in Gokuldham is never just five minutes."
+    ],
+    [
+      "tmkoc",
+      "Why did Jethalal arrive early for the club house?",
+      "Because the plan sounded simple, which was the first warning sign."
+    ],
+    [
+      "tmkoc",
+      "Why did Jethalal arrive early for the society gate?",
+      "Because someone had said “urgent,” and curiosity reached the gate before everyone else."
+    ],
+    [
+      "tmkoc",
+      "Why did Jethalal arrive early for the market?",
+      "Because one small problem was already collecting three opinions."
+    ],
+    [
+      "tmkoc",
+      "Why did Jethalal arrive early for the garage?",
+      "Because the society was quiet for almost two minutes, which felt suspicious."
+    ],
+    [
+      "tmkoc",
+      "Why did Jethalal arrive early for the kitchen?",
+      "Because snacks had appeared and suddenly the meeting had excellent attendance."
+    ],
+    [
+      "tmkoc",
+      "Why did Jethalal arrive early for a Sunday morning?",
+      "Because everyone promised to stay calm, so nobody believed them."
+    ],
+    [
+      "tmkoc",
+      "Why did Jethalal arrive early for a festival decoration session?",
+      "Because the solution was obvious until the entire society started explaining it."
+    ],
+    [
+      "tmkoc",
+      "Why did Jethalal arrive early for the terrace?",
+      "Because the event had one task, but Gokuldham had twelve volunteers."
+    ],
+    [
+      "tmkoc",
+      "Why did Jethalal arrive early for a power-cut evening?",
+      "Because in Gokuldham, even a normal evening can become tomorrow’s society story."
+    ],
+    [
+      "tmkoc",
+      "Why did Daya arrive early for Gokuldham society meeting?",
+      "Because a five-minute discussion in Gokuldham is never just five minutes."
+    ],
+    [
+      "tmkoc",
+      "Why did Daya arrive early for the club house?",
+      "Because the plan sounded simple, which was the first warning sign."
+    ],
+    [
+      "tmkoc",
+      "Why did Daya arrive early for the society gate?",
+      "Because someone had said “urgent,” and curiosity reached the gate before everyone else."
+    ],
+    [
+      "tmkoc",
+      "Why did Daya arrive early for the market?",
+      "Because one small problem was already collecting three opinions."
+    ],
+    [
+      "tmkoc",
+      "Why did Daya arrive early for the garage?",
+      "Because the society was quiet for almost two minutes, which felt suspicious."
+    ],
+    [
+      "tmkoc",
+      "Why did Daya arrive early for the kitchen?",
+      "Because snacks had appeared and suddenly the meeting had excellent attendance."
+    ],
+    [
+      "tmkoc",
+      "Why did Daya arrive early for a Sunday morning?",
+      "Because everyone promised to stay calm, so nobody believed them."
+    ],
+    [
+      "tmkoc",
+      "Why did Daya arrive early for a festival decoration session?",
+      "Because the solution was obvious until the entire society started explaining it."
+    ],
+    [
+      "tmkoc",
+      "Why did Daya arrive early for the terrace?",
+      "Because the event had one task, but Gokuldham had twelve volunteers."
+    ],
+    [
+      "tmkoc",
+      "Why did Daya arrive early for a power-cut evening?",
+      "Because in Gokuldham, even a normal evening can become tomorrow’s society story."
+    ],
+    [
+      "tmkoc",
+      "Why did Bhide arrive early for Gokuldham society meeting?",
+      "Because a five-minute discussion in Gokuldham is never just five minutes."
+    ],
+    [
+      "tmkoc",
+      "Why did Bhide arrive early for the club house?",
+      "Because the plan sounded simple, which was the first warning sign."
+    ],
+    [
+      "tmkoc",
+      "Why did Bhide arrive early for the society gate?",
+      "Because someone had said “urgent,” and curiosity reached the gate before everyone else."
+    ],
+    [
+      "tmkoc",
+      "Why did Bhide arrive early for the market?",
+      "Because one small problem was already collecting three opinions."
+    ],
+    [
+      "tmkoc",
+      "Why did Bhide arrive early for the garage?",
+      "Because the society was quiet for almost two minutes, which felt suspicious."
+    ],
+    [
+      "tmkoc",
+      "Why did Bhide arrive early for the kitchen?",
+      "Because snacks had appeared and suddenly the meeting had excellent attendance."
+    ],
+    [
+      "tmkoc",
+      "Why did Bhide arrive early for a Sunday morning?",
+      "Because everyone promised to stay calm, so nobody believed them."
+    ],
+    [
+      "tmkoc",
+      "Why did Bhide arrive early for a festival decoration session?",
+      "Because the solution was obvious until the entire society started explaining it."
+    ],
+    [
+      "tmkoc",
+      "Why did Bhide arrive early for the terrace?",
+      "Because the event had one task, but Gokuldham had twelve volunteers."
+    ],
+    [
+      "tmkoc",
+      "Why did Bhide arrive early for a power-cut evening?",
+      "Because in Gokuldham, even a normal evening can become tomorrow’s society story."
+    ],
+    [
+      "tmkoc",
+      "Why did Popatlal arrive early for Gokuldham society meeting?",
+      "Because a five-minute discussion in Gokuldham is never just five minutes."
+    ],
+    [
+      "tmkoc",
+      "Why did Popatlal arrive early for the club house?",
+      "Because the plan sounded simple, which was the first warning sign."
+    ],
+    [
+      "tmkoc",
+      "Why did Popatlal arrive early for the society gate?",
+      "Because someone had said “urgent,” and curiosity reached the gate before everyone else."
+    ],
+    [
+      "tmkoc",
+      "Why did Popatlal arrive early for the market?",
+      "Because one small problem was already collecting three opinions."
+    ],
+    [
+      "tmkoc",
+      "Why did Popatlal arrive early for the garage?",
+      "Because the society was quiet for almost two minutes, which felt suspicious."
+    ],
+    [
+      "tmkoc",
+      "Why did Popatlal arrive early for the kitchen?",
+      "Because snacks had appeared and suddenly the meeting had excellent attendance."
+    ],
+    [
+      "tmkoc",
+      "Why did Popatlal arrive early for a Sunday morning?",
+      "Because everyone promised to stay calm, so nobody believed them."
+    ],
+    [
+      "tmkoc",
+      "Why did Popatlal arrive early for a festival decoration session?",
+      "Because the solution was obvious until the entire society started explaining it."
+    ],
+    [
+      "tmkoc",
+      "Why did Popatlal arrive early for the terrace?",
+      "Because the event had one task, but Gokuldham had twelve volunteers."
+    ],
+    [
+      "tmkoc",
+      "Why did Popatlal arrive early for a power-cut evening?",
+      "Because in Gokuldham, even a normal evening can become tomorrow’s society story."
+    ],
+    [
+      "tmkoc",
+      "Why did Iyer arrive early for Gokuldham society meeting?",
+      "Because a five-minute discussion in Gokuldham is never just five minutes."
+    ],
+    [
+      "tmkoc",
+      "Why did Iyer arrive early for the club house?",
+      "Because the plan sounded simple, which was the first warning sign."
+    ],
+    [
+      "tmkoc",
+      "Why did Iyer arrive early for the society gate?",
+      "Because someone had said “urgent,” and curiosity reached the gate before everyone else."
+    ],
+    [
+      "tmkoc",
+      "Why did Iyer arrive early for the market?",
+      "Because one small problem was already collecting three opinions."
+    ],
+    [
+      "tmkoc",
+      "Why did Iyer arrive early for the garage?",
+      "Because the society was quiet for almost two minutes, which felt suspicious."
+    ],
+    [
+      "tmkoc",
+      "Why did Iyer arrive early for the kitchen?",
+      "Because snacks had appeared and suddenly the meeting had excellent attendance."
+    ],
+    [
+      "tmkoc",
+      "Why did Iyer arrive early for a Sunday morning?",
+      "Because everyone promised to stay calm, so nobody believed them."
+    ],
+    [
+      "tmkoc",
+      "Why did Iyer arrive early for a festival decoration session?",
+      "Because the solution was obvious until the entire society started explaining it."
+    ],
+    [
+      "tmkoc",
+      "Why did Iyer arrive early for the terrace?",
+      "Because the event had one task, but Gokuldham had twelve volunteers."
+    ],
+    [
+      "tmkoc",
+      "Why did Iyer arrive early for a power-cut evening?",
+      "Because in Gokuldham, even a normal evening can become tomorrow’s society story."
+    ],
+    [
+      "tmkoc",
+      "Why did Babita arrive early for Gokuldham society meeting?",
+      "Because a five-minute discussion in Gokuldham is never just five minutes."
+    ],
+    [
+      "tmkoc",
+      "Why did Babita arrive early for the club house?",
+      "Because the plan sounded simple, which was the first warning sign."
+    ],
+    [
+      "tmkoc",
+      "Why did Babita arrive early for the society gate?",
+      "Because someone had said “urgent,” and curiosity reached the gate before everyone else."
+    ],
+    [
+      "tmkoc",
+      "Why did Babita arrive early for the market?",
+      "Because one small problem was already collecting three opinions."
+    ],
+    [
+      "tmkoc",
+      "Why did Babita arrive early for the garage?",
+      "Because the society was quiet for almost two minutes, which felt suspicious."
+    ],
+    [
+      "tmkoc",
+      "Why did Babita arrive early for the kitchen?",
+      "Because snacks had appeared and suddenly the meeting had excellent attendance."
+    ],
+    [
+      "tmkoc",
+      "Why did Babita arrive early for a Sunday morning?",
+      "Because everyone promised to stay calm, so nobody believed them."
+    ],
+    [
+      "tmkoc",
+      "Why did Babita arrive early for a festival decoration session?",
+      "Because the solution was obvious until the entire society started explaining it."
+    ],
+    [
+      "tmkoc",
+      "Why did Babita arrive early for the terrace?",
+      "Because the event had one task, but Gokuldham had twelve volunteers."
+    ],
+    [
+      "tmkoc",
+      "Why did Babita arrive early for a power-cut evening?",
+      "Because in Gokuldham, even a normal evening can become tomorrow’s society story."
+    ],
+    [
+      "tmkoc",
+      "Why did Sodhi arrive early for Gokuldham society meeting?",
+      "Because a five-minute discussion in Gokuldham is never just five minutes."
+    ],
+    [
+      "tmkoc",
+      "Why did Sodhi arrive early for the club house?",
+      "Because the plan sounded simple, which was the first warning sign."
+    ],
+    [
+      "tmkoc",
+      "Why did Sodhi arrive early for the society gate?",
+      "Because someone had said “urgent,” and curiosity reached the gate before everyone else."
+    ],
+    [
+      "tmkoc",
+      "Why did Sodhi arrive early for the market?",
+      "Because one small problem was already collecting three opinions."
+    ],
+    [
+      "tmkoc",
+      "Why did Sodhi arrive early for the garage?",
+      "Because the society was quiet for almost two minutes, which felt suspicious."
+    ],
+    [
+      "tmkoc",
+      "Why did Sodhi arrive early for the kitchen?",
+      "Because snacks had appeared and suddenly the meeting had excellent attendance."
+    ],
+    [
+      "tmkoc",
+      "Why did Sodhi arrive early for a Sunday morning?",
+      "Because everyone promised to stay calm, so nobody believed them."
+    ],
+    [
+      "tmkoc",
+      "Why did Sodhi arrive early for a festival decoration session?",
+      "Because the solution was obvious until the entire society started explaining it."
+    ],
+    [
+      "tmkoc",
+      "Why did Sodhi arrive early for the terrace?",
+      "Because the event had one task, but Gokuldham had twelve volunteers."
+    ],
+    [
+      "tmkoc",
+      "Why did Sodhi arrive early for a power-cut evening?",
+      "Because in Gokuldham, even a normal evening can become tomorrow’s society story."
+    ],
+    [
+      "tmkoc",
+      "Why did Abdul arrive early for Gokuldham society meeting?",
+      "Because a five-minute discussion in Gokuldham is never just five minutes."
+    ],
+    [
+      "tmkoc",
+      "Why did Abdul arrive early for the club house?",
+      "Because the plan sounded simple, which was the first warning sign."
+    ],
+    [
+      "tmkoc",
+      "Why did Abdul arrive early for the society gate?",
+      "Because someone had said “urgent,” and curiosity reached the gate before everyone else."
+    ],
+    [
+      "tmkoc",
+      "Why did Abdul arrive early for the market?",
+      "Because one small problem was already collecting three opinions."
+    ],
+    [
+      "tmkoc",
+      "Why did Abdul arrive early for the garage?",
+      "Because the society was quiet for almost two minutes, which felt suspicious."
+    ],
+    [
+      "tmkoc",
+      "Why did Abdul arrive early for the kitchen?",
+      "Because snacks had appeared and suddenly the meeting had excellent attendance."
+    ],
+    [
+      "tmkoc",
+      "Why did Abdul arrive early for a Sunday morning?",
+      "Because everyone promised to stay calm, so nobody believed them."
+    ],
+    [
+      "tmkoc",
+      "Why did Abdul arrive early for a festival decoration session?",
+      "Because the solution was obvious until the entire society started explaining it."
+    ],
+    [
+      "tmkoc",
+      "Why did Abdul arrive early for the terrace?",
+      "Because the event had one task, but Gokuldham had twelve volunteers."
+    ],
+    [
+      "tmkoc",
+      "Why did Abdul arrive early for a power-cut evening?",
+      "Because in Gokuldham, even a normal evening can become tomorrow’s society story."
+    ],
+    [
+      "tmkoc",
+      "Why did Mehta Sahab arrive early for Gokuldham society meeting?",
+      "Because a five-minute discussion in Gokuldham is never just five minutes."
+    ],
+    [
+      "tmkoc",
+      "Why did Mehta Sahab arrive early for the club house?",
+      "Because the plan sounded simple, which was the first warning sign."
+    ],
+    [
+      "tmkoc",
+      "Why did Mehta Sahab arrive early for the society gate?",
+      "Because someone had said “urgent,” and curiosity reached the gate before everyone else."
+    ],
+    [
+      "tmkoc",
+      "Why did Mehta Sahab arrive early for the market?",
+      "Because one small problem was already collecting three opinions."
+    ],
+    [
+      "tmkoc",
+      "Why did Mehta Sahab arrive early for the garage?",
+      "Because the society was quiet for almost two minutes, which felt suspicious."
+    ],
+    [
+      "tmkoc",
+      "Why did Mehta Sahab arrive early for the kitchen?",
+      "Because snacks had appeared and suddenly the meeting had excellent attendance."
+    ],
+    [
+      "tmkoc",
+      "Why did Mehta Sahab arrive early for a Sunday morning?",
+      "Because everyone promised to stay calm, so nobody believed them."
+    ],
+    [
+      "tmkoc",
+      "Why did Mehta Sahab arrive early for a festival decoration session?",
+      "Because the solution was obvious until the entire society started explaining it."
+    ],
+    [
+      "tmkoc",
+      "Why did Mehta Sahab arrive early for the terrace?",
+      "Because the event had one task, but Gokuldham had twelve volunteers."
+    ],
+    [
+      "tmkoc",
+      "Why did Mehta Sahab arrive early for a power-cut evening?",
+      "Because in Gokuldham, even a normal evening can become tomorrow’s society story."
+    ],
+    [
+      "tmkoc",
+      "Why did Madhavi arrive early for Gokuldham society meeting?",
+      "Because a five-minute discussion in Gokuldham is never just five minutes."
+    ],
+    [
+      "tmkoc",
+      "Why did Madhavi arrive early for the club house?",
+      "Because the plan sounded simple, which was the first warning sign."
+    ],
+    [
+      "tmkoc",
+      "Why did Madhavi arrive early for the society gate?",
+      "Because someone had said “urgent,” and curiosity reached the gate before everyone else."
+    ],
+    [
+      "tmkoc",
+      "Why did Madhavi arrive early for the market?",
+      "Because one small problem was already collecting three opinions."
+    ],
+    [
+      "tmkoc",
+      "Why did Madhavi arrive early for the garage?",
+      "Because the society was quiet for almost two minutes, which felt suspicious."
+    ],
+    [
+      "tmkoc",
+      "Why did Madhavi arrive early for the kitchen?",
+      "Because snacks had appeared and suddenly the meeting had excellent attendance."
+    ],
+    [
+      "tmkoc",
+      "Why did Madhavi arrive early for a Sunday morning?",
+      "Because everyone promised to stay calm, so nobody believed them."
+    ],
+    [
+      "tmkoc",
+      "Why did Madhavi arrive early for a festival decoration session?",
+      "Because the solution was obvious until the entire society started explaining it."
+    ],
+    [
+      "tmkoc",
+      "Why did Madhavi arrive early for the terrace?",
+      "Because the event had one task, but Gokuldham had twelve volunteers."
+    ],
+    [
+      "tmkoc",
+      "Why did Madhavi arrive early for a power-cut evening?",
+      "Because in Gokuldham, even a normal evening can become tomorrow’s society story."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan make a plan for homework?",
+      "Because the plan had to include maximum fun and minimum responsibility."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan make a plan for bedtime?",
+      "Because he wanted to finish quickly so he could return to doing absolutely nothing useful."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan make a plan for breakfast?",
+      "Because Misae had already asked once, and Shinchan considered that a deadline."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan make a plan for a family outing?",
+      "Because he believed every serious task deserved at least one silly idea."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan make a plan for cleaning his room?",
+      "Because the easiest part of the plan was announcing it loudly."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan make a plan for a school day?",
+      "Because he had a shortcut, a snack, and no intention of following instructions."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan make a plan for a rainy afternoon?",
+      "Because even a rainy day needed a little comedy."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan make a plan for a grocery trip?",
+      "Because he thought helping meant supervising everyone else."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan make a plan for a dance practice?",
+      "Because the plan sounded brilliant until someone asked him to explain step two."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan make a plan for a quiet Sunday?",
+      "Because Shinchan’s definition of “helpful” usually comes with extra cleanup."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 2, make a plan for homework?",
+      "Because the plan had to include maximum fun and minimum responsibility."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 2, make a plan for bedtime?",
+      "Because he wanted to finish quickly so he could return to doing absolutely nothing useful."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 2, make a plan for breakfast?",
+      "Because Misae had already asked once, and Shinchan considered that a deadline."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 2, make a plan for a family outing?",
+      "Because he believed every serious task deserved at least one silly idea."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 2, make a plan for cleaning his room?",
+      "Because the easiest part of the plan was announcing it loudly."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 2, make a plan for a school day?",
+      "Because he had a shortcut, a snack, and no intention of following instructions."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 2, make a plan for a rainy afternoon?",
+      "Because even a rainy day needed a little comedy."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 2, make a plan for a grocery trip?",
+      "Because he thought helping meant supervising everyone else."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 2, make a plan for a dance practice?",
+      "Because the plan sounded brilliant until someone asked him to explain step two."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 2, make a plan for a quiet Sunday?",
+      "Because Shinchan’s definition of “helpful” usually comes with extra cleanup."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 3, make a plan for homework?",
+      "Because the plan had to include maximum fun and minimum responsibility."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 3, make a plan for bedtime?",
+      "Because he wanted to finish quickly so he could return to doing absolutely nothing useful."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 3, make a plan for breakfast?",
+      "Because Misae had already asked once, and Shinchan considered that a deadline."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 3, make a plan for a family outing?",
+      "Because he believed every serious task deserved at least one silly idea."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 3, make a plan for cleaning his room?",
+      "Because the easiest part of the plan was announcing it loudly."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 3, make a plan for a school day?",
+      "Because he had a shortcut, a snack, and no intention of following instructions."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 3, make a plan for a rainy afternoon?",
+      "Because even a rainy day needed a little comedy."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 3, make a plan for a grocery trip?",
+      "Because he thought helping meant supervising everyone else."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 3, make a plan for a dance practice?",
+      "Because the plan sounded brilliant until someone asked him to explain step two."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 3, make a plan for a quiet Sunday?",
+      "Because Shinchan’s definition of “helpful” usually comes with extra cleanup."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 4, make a plan for homework?",
+      "Because the plan had to include maximum fun and minimum responsibility."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 4, make a plan for bedtime?",
+      "Because he wanted to finish quickly so he could return to doing absolutely nothing useful."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 4, make a plan for breakfast?",
+      "Because Misae had already asked once, and Shinchan considered that a deadline."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 4, make a plan for a family outing?",
+      "Because he believed every serious task deserved at least one silly idea."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 4, make a plan for cleaning his room?",
+      "Because the easiest part of the plan was announcing it loudly."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 4, make a plan for a school day?",
+      "Because he had a shortcut, a snack, and no intention of following instructions."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 4, make a plan for a rainy afternoon?",
+      "Because even a rainy day needed a little comedy."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 4, make a plan for a grocery trip?",
+      "Because he thought helping meant supervising everyone else."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 4, make a plan for a dance practice?",
+      "Because the plan sounded brilliant until someone asked him to explain step two."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 4, make a plan for a quiet Sunday?",
+      "Because Shinchan’s definition of “helpful” usually comes with extra cleanup."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 5, make a plan for homework?",
+      "Because the plan had to include maximum fun and minimum responsibility."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 5, make a plan for bedtime?",
+      "Because he wanted to finish quickly so he could return to doing absolutely nothing useful."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 5, make a plan for breakfast?",
+      "Because Misae had already asked once, and Shinchan considered that a deadline."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 5, make a plan for a family outing?",
+      "Because he believed every serious task deserved at least one silly idea."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 5, make a plan for cleaning his room?",
+      "Because the easiest part of the plan was announcing it loudly."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 5, make a plan for a school day?",
+      "Because he had a shortcut, a snack, and no intention of following instructions."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 5, make a plan for a rainy afternoon?",
+      "Because even a rainy day needed a little comedy."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 5, make a plan for a grocery trip?",
+      "Because he thought helping meant supervising everyone else."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 5, make a plan for a dance practice?",
+      "Because the plan sounded brilliant until someone asked him to explain step two."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 5, make a plan for a quiet Sunday?",
+      "Because Shinchan’s definition of “helpful” usually comes with extra cleanup."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 6, make a plan for homework?",
+      "Because the plan had to include maximum fun and minimum responsibility."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 6, make a plan for bedtime?",
+      "Because he wanted to finish quickly so he could return to doing absolutely nothing useful."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 6, make a plan for breakfast?",
+      "Because Misae had already asked once, and Shinchan considered that a deadline."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 6, make a plan for a family outing?",
+      "Because he believed every serious task deserved at least one silly idea."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 6, make a plan for cleaning his room?",
+      "Because the easiest part of the plan was announcing it loudly."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 6, make a plan for a school day?",
+      "Because he had a shortcut, a snack, and no intention of following instructions."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 6, make a plan for a rainy afternoon?",
+      "Because even a rainy day needed a little comedy."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 6, make a plan for a grocery trip?",
+      "Because he thought helping meant supervising everyone else."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 6, make a plan for a dance practice?",
+      "Because the plan sounded brilliant until someone asked him to explain step two."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 6, make a plan for a quiet Sunday?",
+      "Because Shinchan’s definition of “helpful” usually comes with extra cleanup."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 7, make a plan for homework?",
+      "Because the plan had to include maximum fun and minimum responsibility."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 7, make a plan for bedtime?",
+      "Because he wanted to finish quickly so he could return to doing absolutely nothing useful."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 7, make a plan for breakfast?",
+      "Because Misae had already asked once, and Shinchan considered that a deadline."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 7, make a plan for a family outing?",
+      "Because he believed every serious task deserved at least one silly idea."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 7, make a plan for cleaning his room?",
+      "Because the easiest part of the plan was announcing it loudly."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 7, make a plan for a school day?",
+      "Because he had a shortcut, a snack, and no intention of following instructions."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 7, make a plan for a rainy afternoon?",
+      "Because even a rainy day needed a little comedy."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 7, make a plan for a grocery trip?",
+      "Because he thought helping meant supervising everyone else."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 7, make a plan for a dance practice?",
+      "Because the plan sounded brilliant until someone asked him to explain step two."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 7, make a plan for a quiet Sunday?",
+      "Because Shinchan’s definition of “helpful” usually comes with extra cleanup."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 8, make a plan for homework?",
+      "Because the plan had to include maximum fun and minimum responsibility."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 8, make a plan for bedtime?",
+      "Because he wanted to finish quickly so he could return to doing absolutely nothing useful."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 8, make a plan for breakfast?",
+      "Because Misae had already asked once, and Shinchan considered that a deadline."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 8, make a plan for a family outing?",
+      "Because he believed every serious task deserved at least one silly idea."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 8, make a plan for cleaning his room?",
+      "Because the easiest part of the plan was announcing it loudly."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 8, make a plan for a school day?",
+      "Because he had a shortcut, a snack, and no intention of following instructions."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 8, make a plan for a rainy afternoon?",
+      "Because even a rainy day needed a little comedy."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 8, make a plan for a grocery trip?",
+      "Because he thought helping meant supervising everyone else."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 8, make a plan for a dance practice?",
+      "Because the plan sounded brilliant until someone asked him to explain step two."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 8, make a plan for a quiet Sunday?",
+      "Because Shinchan’s definition of “helpful” usually comes with extra cleanup."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 9, make a plan for homework?",
+      "Because the plan had to include maximum fun and minimum responsibility."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 9, make a plan for bedtime?",
+      "Because he wanted to finish quickly so he could return to doing absolutely nothing useful."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 9, make a plan for breakfast?",
+      "Because Misae had already asked once, and Shinchan considered that a deadline."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 9, make a plan for a family outing?",
+      "Because he believed every serious task deserved at least one silly idea."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 9, make a plan for cleaning his room?",
+      "Because the easiest part of the plan was announcing it loudly."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 9, make a plan for a school day?",
+      "Because he had a shortcut, a snack, and no intention of following instructions."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 9, make a plan for a rainy afternoon?",
+      "Because even a rainy day needed a little comedy."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 9, make a plan for a grocery trip?",
+      "Because he thought helping meant supervising everyone else."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 9, make a plan for a dance practice?",
+      "Because the plan sounded brilliant until someone asked him to explain step two."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 9, make a plan for a quiet Sunday?",
+      "Because Shinchan’s definition of “helpful” usually comes with extra cleanup."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 10, make a plan for homework?",
+      "Because the plan had to include maximum fun and minimum responsibility."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 10, make a plan for bedtime?",
+      "Because he wanted to finish quickly so he could return to doing absolutely nothing useful."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 10, make a plan for breakfast?",
+      "Because Misae had already asked once, and Shinchan considered that a deadline."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 10, make a plan for a family outing?",
+      "Because he believed every serious task deserved at least one silly idea."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 10, make a plan for cleaning his room?",
+      "Because the easiest part of the plan was announcing it loudly."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 10, make a plan for a school day?",
+      "Because he had a shortcut, a snack, and no intention of following instructions."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 10, make a plan for a rainy afternoon?",
+      "Because even a rainy day needed a little comedy."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 10, make a plan for a grocery trip?",
+      "Because he thought helping meant supervising everyone else."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 10, make a plan for a dance practice?",
+      "Because the plan sounded brilliant until someone asked him to explain step two."
+    ],
+    [
+      "shinchan",
+      "Why did Shinchan, on day 10, make a plan for a quiet Sunday?",
+      "Because Shinchan’s definition of “helpful” usually comes with extra cleanup."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the kitchen after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the kitchen after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the kitchen after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the kitchen after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the kitchen after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the living room after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the living room after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the living room after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the living room after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the living room after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the garden after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the garden after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the garden after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the garden after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the garden after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the attic after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the attic after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the attic after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the attic after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the attic after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the dining table after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the dining table after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the dining table after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the dining table after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the dining table after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the hallway after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the hallway after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the hallway after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the hallway after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the hallway after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the garage after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the garage after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the garage after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the garage after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the garage after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the laundry room after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the laundry room after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the laundry room after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the laundry room after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the laundry room after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the balcony after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the balcony after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the balcony after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the balcony after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to the balcony after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to a quiet afternoon after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to a quiet afternoon after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to a quiet afternoon after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to a quiet afternoon after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Tom go to a quiet afternoon after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the kitchen after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the kitchen after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the kitchen after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the kitchen after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the kitchen after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the living room after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the living room after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the living room after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the living room after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the living room after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the garden after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the garden after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the garden after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the garden after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the garden after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the attic after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the attic after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the attic after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the attic after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the attic after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the dining table after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the dining table after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the dining table after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the dining table after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the dining table after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the hallway after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the hallway after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the hallway after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the hallway after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the hallway after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the garage after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the garage after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the garage after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the garage after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the garage after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the laundry room after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the laundry room after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the laundry room after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the laundry room after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the laundry room after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the balcony after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the balcony after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the balcony after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the balcony after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to the balcony after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to a quiet afternoon after he followed a trail of crumbs?",
+      "Because curiosity was faster than common sense."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to a quiet afternoon after he heard a tiny noise?",
+      "Because the snack was more convincing than the warning sign."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to a quiet afternoon after he spotted a piece of cheese?",
+      "Because every mystery in that house eventually becomes a chase."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to a quiet afternoon after he found an open cupboard?",
+      "Because neither side wanted to let the other investigate first."
+    ],
+    [
+      "tom-and-jerry",
+      "Why did Jerry go to a quiet afternoon after he noticed a suspicious shadow?",
+      "Because the quiet lasted long enough to become suspicious."
+    ]
+  ]
+}
