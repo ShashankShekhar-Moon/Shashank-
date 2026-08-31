@@ -22,16 +22,119 @@
   "blogs": [
     {
       "id": "first-post",
-      "title": "The first note",
-      "excerpt": "A simple starting point for ideas, observations and experiments.",
-      "category": "NOTES",
-      "date": "2026-08-29",
-      "readTime": "2 min read",
+      "title": "Why I Made This Little Corner of the Internet",
+      "excerpt": "I have always liked the idea of having a small place on the internet that is actually mine....",
+      "category": "PERSONAL",
+      "date": "2026-08-31",
+      "readTime": "9 min read",
       "cover": "",
       "content": [
-        {"type":"paragraph","text":"Write your article here."},
-        {"type":"heading","text":"A small beginning"},
-        {"type":"paragraph","text":"You can add more sections, images, audio, video, PDFs, GIFs and other downloadable files."}
+        {"type": "paragraph",
+    "text": "I have always liked the idea of having a small place on the internet that is actually mine."
+  },
+  {
+    "type": "paragraph",
+    "text": "Not a profile. Not a feed. Not a place where an algorithm decides what deserves attention. Just a website, sitting somewhere on the internet, with my name on it."
+  },
+  {
+    "type": "paragraph",
+    "text": "I made this blog for the things that don't have an obvious place to go."
+  },
+  {
+    "type": "paragraph",
+    "text": "Ideas I can't stop thinking about. Things I'm building. Things I'm learning. Experiments that work, experiments that fail, and the strange things I discover somewhere in between. Sometimes it might be technology. Sometimes it might be a project. Sometimes it might be an observation that would never be worth turning into a social media post."
+  },
+  {
+    "type": "paragraph",
+    "text": "And sometimes it might be nothing particularly important at all."
+  },
+  {
+    "type": "paragraph",
+    "text": "I don't want this to become a content machine."
+  },
+  {
+    "type": "paragraph",
+    "text": "I don't want to have to publish every Tuesday. I don't want to write something just because the calendar says I should. And I don't want to turn every thought into a lesson, a thread, a headline, or something designed to get attention."
+  },
+  {
+    "type": "paragraph",
+    "text": "I just want a place to write."
+  },
+  {
+    "type": "paragraph",
+    "text": "The internet once felt a little more like this to me. People made websites because they wanted to make websites. They wrote because they had something to say. They built strange little projects, experimented with ideas, and left pieces of themselves scattered across the web."
+  },
+  {
+    "type": "paragraph",
+    "text": "I miss that feeling."
+  },
+  {
+    "type": "paragraph",
+    "text": "So this is my attempt to make a small version of it."
+  },
+  {
+    "type": "paragraph",
+    "text": "This blog is a place for me to think in public, build in public, and keep a record of where my mind has been."
+  },
+  {
+    "type": "paragraph",
+    "text": "Some posts might be carefully thought out. Others might be messy. Some ideas might turn into something bigger. Others might disappear after I write them down."
+  },
+  {
+    "type": "paragraph",
+    "text": "That's fine."
+  },
+  {
+    "type": "paragraph",
+    "text": "Not everything needs to become something."
+  },
+  {
+    "type": "paragraph",
+    "text": "Maybe nobody reads some of these posts. Honestly, that's okay too."
+  },
+  {
+    "type": "paragraph",
+    "text": "Because there is another reason I'm writing them."
+  },
+  {
+    "type": "paragraph",
+    "text": "One day, years from now, I might come back here and read something written by the person I am today. I might disagree with him. I might laugh at him. I might wonder why he ever thought that way."
+  },
+  {
+    "type": "paragraph",
+    "text": "But I'll know him."
+  },
+  {
+    "type": "paragraph",
+    "text": "I'll be able to see what I was thinking, what I was trying to build, what I cared about, and what I didn't yet understand."
+  },
+  {
+    "type": "paragraph",
+    "text": "Maybe that's what this place is really for."
+  },
+  {
+    "type": "paragraph",
+    "text": "Not an audience."
+  },
+  {
+    "type": "paragraph",
+    "text": "A record."
+  },
+  {
+    "type": "paragraph",
+    "text": "A little corner of the internet where I can leave things behind."
+  },
+  {
+    "type": "paragraph",
+    "text": "Anyway, welcome."
+  },
+  {
+    "type": "paragraph",
+    "text": "This is mine."
+  },
+  {
+    "type": "paragraph",
+    "text": "Let's see where it goes." }
       ],
       "media": []
     }
