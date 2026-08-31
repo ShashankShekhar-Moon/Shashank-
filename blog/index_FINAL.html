@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" id="metaDescription" content="A public blog by Shashank Shekhar.">
+<meta name="theme-color" content="#050505">
+<title id="pageTitle">Shashank — Blog</title>
+
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#050505; --surface:#0b0d0b; --surface2:#111411;
+  --text:#f4f5ef; --soft:#a8ada5; --muted:#727970;
+  --line:#242824; --line2:#383e37; --accent:#b8ff4a;
+  --content:1040px; --reader:780px; --radius:10px;
+}
+body.light{
+  color-scheme:light;
+  --bg:#f4f5f0; --surface:#fff; --surface2:#eef0eb;
+  --text:#171a17; --soft:#555c55; --muted:#697069;
+  --line:#d1d5cf; --line2:#b6bdb4; --accent:#5f8f20;
+}
+*{box-sizing:border-box}
+html{background:var(--bg);overflow-x:hidden;scroll-behavior:smooth}
+body{
+  margin:0; min-width:0; overflow-x:hidden; background:var(--bg);
+  color:var(--text); font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  line-height:1.7;
+}
+body.modal-open{overflow:hidden}
+a{color:inherit;text-decoration:none}
+button,input,select{font:inherit}
+button{cursor:pointer}
+img,video,iframe{max-width:100%}
+::selection{background:var(--accent);color:var(--bg)}
+
+.shell{width:min(var(--content),88vw);margin-inline:auto}
+
+.topbar,.readerbar{
+  min-height:70px; display:flex; align-items:center; justify-content:space-between;
+  gap:16px; padding:0 max(6vw,20px); border-bottom:1px solid var(--line);
+  background:rgba(5,5,5,.94); backdrop-filter:blur(14px); z-index:20;
+}
+.topbar{position:sticky;top:0}
+body.light .topbar,body.light .readerbar{background:rgba(244,245,240,.94)}
+.brand{font-weight:950;font-size:15px;letter-spacing:-.06em}
+.brand span{color:var(--accent)}
+.actions{display:flex;align-items:center;gap:8px}
+.ui-btn{
+  min-height:40px; padding:0 13px; border:1px solid var(--line2);
+  border-radius:7px; background:transparent; color:var(--soft);
+  font:800 9px ui-monospace,SFMono-Regular,Menlo,monospace;
+  letter-spacing:.12em; text-transform:uppercase; transition:.18s;
+}
+.ui-btn:hover,.ui-btn:focus-visible{color:var(--accent);border-color:var(--accent);outline:none}
+.ui-btn:focus-visible{box-shadow:0 0 0 3px rgba(184,255,74,.12)}
+
+.eyebrow,.label{
+  color:var(--accent); font:900 10px ui-monospace,SFMono-Regular,Menlo,monospace;
+  letter-spacing:.2em; text-transform:uppercase;
+}
+.hero{padding:88px 0 70px;border-bottom:1px solid var(--line)}
+.hero h1{
+  margin:22px 0 0; max-width:920px; font-size:clamp(4rem,11vw,8.8rem);
+  line-height:.82; letter-spacing:-.1em;
+}
+.hero h1 span{color:var(--accent)}
+.intro{max-width:760px;margin:30px 0 0;color:var(--soft);font-size:clamp(1rem,1.8vw,1.18rem);line-height:1.85}
+.hero-meta,.meta{
+  display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;
+  color:var(--muted);font:800 9px ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase;
+}
+.hero-meta{margin-top:28px}
+.hero-meta strong{color:var(--text)}
+.dot{color:var(--accent)}
+
+.section{padding:72px 0}
+.featured{margin-top:25px;border-top:1px solid var(--line);padding-top:25px}
+.featured-link{display:block}
+.featured-link:hover .featured-title{color:var(--accent)}
+.featured-title{
+  margin:0;font-size:clamp(2.7rem,6vw,5.8rem);line-height:.95;letter-spacing:-.08em;transition:.18s;
+}
+.excerpt{max-width:780px;margin:18px 0 0;color:var(--soft);font-size:1.05rem;line-height:1.75}
+.meta{margin-top:16px}
+
+.cover,.media-box{
+  margin-top:28px;overflow:hidden;border:1px solid var(--line);
+  border-radius:var(--radius);background:var(--surface);
+}
+.cover img,.cover video{
+  display:block;width:100%;height:auto;max-height:560px;object-fit:contain;
+}
+.media-wrap{margin:34px 0}
+.media-image,.media-video{
+  display:block;width:100%;max-width:100%;height:auto;max-height:720px;
+  object-fit:contain;border:1px solid var(--line);border-radius:var(--radius);
+  background:var(--surface);margin:0 auto;
+}
+.media-caption{
+  margin:9px 2px 0;color:var(--muted);
+  font:700 9px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;
+}
+.media-error,.error,.file-card{
+  padding:18px;border:1px solid var(--line);border-radius:var(--radius);
+  background:var(--surface);color:var(--soft);
+}
+.media-error strong,.error strong{color:#ff7777}
+.media-audio{display:block;width:100%;margin:34px 0}
+.file-card strong{display:block;color:var(--text)}
+.file-card small{display:block;margin-top:4px;color:var(--muted)}
+.download{
+  display:inline-block;margin-top:12px;padding:9px 12px;border:1px solid var(--line2);
+  border-radius:7px;font:800 9px ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase;
+}
+.download:hover{color:var(--accent);border-color:var(--accent)}
+.pdf{display:block;width:100%;height:min(72vh,700px);margin-top:14px;border:1px solid var(--line);border-radius:var(--radius);background:#fff}
+
+.posts-head{
+  display:flex;align-items:end;justify-content:space-between;gap:20px;
+  padding-bottom:18px;border-bottom:1px solid var(--line);
+}
+.posts-head h2{margin:0;font-size:clamp(2.2rem,5.4vw,4.5rem);line-height:.9;letter-spacing:-.08em}
+.post-count{color:var(--muted);font:800 9px ui-monospace,monospace;letter-spacing:.12em}
+.tools{display:flex;gap:8px;margin:22px 0 8px}
+.search,.filter{
+  min-height:44px;border:1px solid var(--line2);border-radius:7px;background:var(--surface);color:var(--text);
+  outline:none;
+}
+.search{flex:1;padding:0 13px;font-size:16px}
+.filter{padding:0 12px;color:var(--soft);font:800 9px ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase}
+.search:focus,.filter:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(184,255,74,.08)}
+.search::placeholder{color:var(--muted)}
+
+.post{
+  display:grid;grid-template-columns:120px minmax(0,1fr);gap:30px;
+  padding:28px 0;border-bottom:1px solid var(--line);
+}
+.post-number{color:var(--muted);font:900 10px ui-monospace,monospace;letter-spacing:.12em}
+.post-date{display:block;margin-top:6px;line-height:1.4}
+.post-link{display:block;min-width:0}
+.post-link:hover .post-title{color:var(--accent)}
+.post-title{margin:0;font-size:clamp(1.7rem,3.2vw,2.8rem);line-height:1.02;letter-spacing:-.055em;transition:.18s}
+.post-excerpt{margin:9px 0 0;color:var(--soft);line-height:1.65}
+.empty{padding:28px 0;color:var(--muted);border-top:1px solid var(--line)}
+
+.about{padding:70px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.about-grid{display:grid;grid-template-columns:180px minmax(0,1fr);gap:50px}
+.about-copy{color:var(--soft);font-size:1.05rem;line-height:1.85}
+.about-copy p{margin:0 0 18px}
+.about-copy p:last-child{margin-bottom:0}
+footer{
+  display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;
+  padding:34px 0 55px;color:var(--muted);font-size:11px;
+}
+footer strong{color:var(--text)}
+
+.reader{
+  position:fixed;inset:0;z-index:100;display:none;overflow:auto;
+  background:var(--bg);overscroll-behavior:contain;
+}
+.reader.open{display:block}
+.readerbar{position:sticky;top:0}
+.article{width:min(var(--reader),88vw);margin:auto;padding:70px 0 110px}
+.article h1{margin:18px 0;font-size:clamp(3rem,8vw,6.8rem);line-height:.86;letter-spacing:-.09em;overflow-wrap:anywhere}
+.article .excerpt{font-size:1.15rem}
+.article-content{padding-top:22px}
+.article-content p{margin:28px 0;color:var(--soft);font-size:1.08rem;line-height:1.95}
+.article-content h2{margin:54px 0 14px;font-size:2rem;line-height:1;letter-spacing:-.05em}
+.article-content h3{margin:40px 0 12px;font-size:1.35rem}
+.article-content blockquote{margin:40px 0;padding-left:20px;border-left:2px solid var(--accent);color:var(--text);font-size:1.16rem;line-height:1.75}
+.article-content ul,.article-content ol{color:var(--soft);padding-left:24px;line-height:1.9}
+.article-nav{
+  display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:70px;padding-top:20px;border-top:1px solid var(--line);
+}
+.article-nav a{padding:14px 0;color:var(--soft);font-size:.92rem}
+.article-nav a:hover{color:var(--accent)}
+.article-nav a:last-child{text-align:right}
+
+@media(max-width:700px){
+  .shell{width:calc(100vw - 32px)}
+  .topbar,.readerbar{min-height:64px}
+  .main-site-btn{display:none}
+  .hero{padding:64px 0 54px}
+  .hero h1{font-size:clamp(3.4rem,17vw,6rem)}
+  .section{padding:54px 0}
+  .posts-head{align-items:flex-start;flex-direction:column}
+  .tools{display:grid;grid-template-columns:1fr}
+  .search,.filter{width:100%}
+  .post{grid-template-columns:1fr;gap:8px;padding:22px 0}
+  .post-date{display:inline;margin-left:10px}
+  .about-grid{grid-template-columns:1fr;gap:18px}
+  .article{width:calc(100vw - 32px);padding-top:48px;padding-bottom:80px}
+  .article h1{font-size:clamp(2.8rem,13vw,5rem)}
+  .article-content p{font-size:1rem;line-height:1.85}
+  .article-nav{grid-template-columns:1fr}
+  .article-nav a:last-child{text-align:left}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+
+<body>
+<header class="topbar">
+  <a class="brand" href="../">SHASHANK<span>.</span></a>
+  <div class="actions">
+    <a class="ui-btn main-site-btn" href="../">MAIN SITE</a>
+    <button class="ui-btn" id="themeBtn" type="button">LIGHT MODE</button>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="shell">
+    <div class="eyebrow">A PUBLIC BLOG BY SHASHANK SHEKHAR</div>
+    <h1>IDEAS.<br><span>EXPERIMENTS.</span><br>OBSERVATIONS.</h1>
+    <p class="intro" id="intro">Loading…</p>
+    <div class="hero-meta">
+      <span>POSTS <strong id="count">—</strong></span>
+      <span>LATEST <strong id="latest">—</strong></span>
+      <span>WORDS, WORK & CURIOSITY</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="label">01 / FEATURED</div>
+    <div id="featured"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="posts-head">
+      <h2>ALL POSTS.</h2>
+      <div class="post-count" id="postCount">—</div>
+    </div>
+    <div class="tools">
+      <input class="search" id="search" type="search" placeholder="Search posts…" aria-label="Search posts">
+      <select class="filter" id="category" aria-label="Filter by category">
+        <option value="all">All categories</option>
+      </select>
+    </div>
+    <div id="posts"></div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="shell about-grid">
+    <div class="label">ABOUT THIS BLOG</div>
+    <div class="about-copy" id="about"></div>
+  </div>
+</section>
+</main>
+
+<footer class="shell">
+  <div><strong>Shashank Shekhar</strong> · A little corner of the internet.</div>
+  <div>© <span id="year"></span></div>
+</footer>
+
+<div class="reader" id="reader" aria-hidden="true">
+  <div class="readerbar">
+    <a class="brand" href="../">SHASHANK<span>.</span></a>
+    <button class="ui-btn" id="closeBtn" type="button">← BACK TO POSTS</button>
+  </div>
+  <article class="article" id="article"></article>
+</div>
+
+<script>
+(() => {
+'use strict';
+
+/*
+  IMPORTANT:
+  blogs.json lives beside this index.html:
+      blog/index.html
+      blog/blogs.json
+      blog/media/...
+
+  Media paths in blogs.json are therefore relative to /blog/:
+      "media/Thank-you-Seth-Godin.png"
+*/
+
+const JSON_CANDIDATES = [
+  new URL('./blogs.json', location.href).href,
+  new URL('/blog/blogs.json', location.origin).href
+];
+
+let jsonBaseUrl = '';
+let site = {};
+let posts = [];
+
+const $ = id => document.getElementById(id);
+
+function esc(value){
+  return String(value ?? '').replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[c]));
+}
+
+function safeUrl(path){
+  const value = String(path ?? '').trim();
+  if(!value) return '';
+  try{
+    /*
+      Resolve media against blogs.json, NOT against an article/hash URL.
+      This makes "media/file.png" reliably point to /blog/media/file.png.
+    */
+    const base = jsonBaseUrl || location.href;
+    const url = new URL(value, base);
+    if(!['http:','https:'].includes(url.protocol)) return '';
+    return url.href;
+  }catch(e){
+    return '';
+  }
+}
+
+function parseDate(value){
+  const d = new Date(String(value || '') + 'T00:00:00');
+  return Number.isNaN(d.getTime()) ? null : d;
+}
+
+function dateLong(value){
+  const d = parseDate(value);
+  return d ? d.toLocaleDateString(undefined,{day:'2-digit',month:'long',year:'numeric'}) : '—';
+}
+
+function dateShort(value){
+  const d = parseDate(value);
+  return d ? d.toLocaleDateString(undefined,{day:'2-digit',month:'short',year:'numeric'}).toUpperCase() : '—';
+}
+
+function mediaType(item){
+  const explicit = String(item?.type || '').toLowerCase();
+  if(explicit && explicit !== 'auto') return explicit;
+
+  const src = String(item?.src || item?.url || item?.path || '').split('?')[0].toLowerCase();
+  const ext = src.includes('.') ? src.split('.').pop() : '';
+
+  if(['jpg','jpeg','png','webp','avif','svg','gif'].includes(ext)) return 'image';
+  if(['mp4','webm','mov','m4v'].includes(ext)) return 'video';
+  if(['mp3','wav','ogg','m4a'].includes(ext)) return 'audio';
+  if(ext === 'pdf') return 'pdf';
+  return 'file';
+}
+
+function normalizeMedia(item){
+  if(typeof item === 'string'){
+    return {type:'auto',src:item,alt:'Blog attachment'};
+  }
+  if(item && typeof item === 'object'){
+    return {
+      ...item,
+      src:item.src || item.url || item.path || ''
+    };
+  }
+  return {type:'file',src:''};
+}
+
+function renderMedia(raw){
+  const item = normalizeMedia(raw);
+  const src = safeUrl(item.src);
+
+  if(!src){
+    return '<div class="media-error"><strong>Media could not be displayed.</strong><br>Invalid or missing attachment path.</div>';
+  }
+
+  const type = mediaType(item);
+  const caption = item.caption
+    ? '<figcaption class="media-caption">'+esc(item.caption)+'</figcaption>'
+    : '';
+
+  if(type === 'image'){
+    return '<figure class="media-wrap">'+
+      '<img class="media-image" src="'+esc(src)+'" alt="'+esc(item.alt || item.caption || 'Blog attachment')+'" loading="lazy" decoding="async" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'">'+
+      '<div class="media-error" style="display:none"><strong>Image could not be loaded.</strong><br>Check the filename and the media folder.</div>'+
+      caption+
+      '</figure>';
+  }
+
+  if(type === 'video'){
+    return '<figure class="media-wrap"><video class="media-video" src="'+esc(src)+'" controls preload="metadata" playsinline></video>'+caption+'</figure>';
+  }
+
+  if(type === 'audio'){
+    return '<figure class="media-wrap"><audio class="media-audio" src="'+esc(src)+'" controls preload="metadata"></audio>'+caption+'</figure>';
+  }
+
+  if(type === 'pdf'){
+    return '<div class="file-card">'+
+      '<strong>'+esc(item.name || 'Document')+'</strong>'+
+      '<small>PDF document</small>'+
+      '<a class="download" href="'+esc(src)+'" target="_blank" rel="noopener">OPEN / DOWNLOAD</a>'+
+      '<iframe class="pdf" src="'+esc(src)+'" title="'+esc(item.name || 'PDF document')+'"></iframe>'+
+      '</div>';
+  }
+
+  return '<div class="file-card">'+
+    '<strong>'+esc(item.name || 'Download file')+'</strong>'+
+    '<small>'+esc(item.label || 'Attached file')+'</small>'+
+    '<a class="download" href="'+esc(src)+'" target="_blank" rel="noopener">OPEN / DOWNLOAD</a>'+
+    '</div>';
+}
+
+function renderContent(block){
+  if(!block || typeof block !== 'object') return '';
+  const type = String(block.type || 'paragraph').toLowerCase();
+
+  if(type === 'paragraph') return '<p>'+esc(block.text || '')+'</p>';
+  if(type === 'heading' || type === 'h2') return '<h2>'+esc(block.text || '')+'</h2>';
+  if(type === 'subheading' || type === 'h3') return '<h3>'+esc(block.text || '')+'</h3>';
+  if(type === 'quote' || type === 'blockquote') return '<blockquote>'+esc(block.text || '')+'</blockquote>';
+
+  if(type === 'list'){
+    const items = Array.isArray(block.items) ? block.items : [];
+    return '<ul>'+items.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>';
+  }
+
+  if(['image','gif','video','audio','pdf','file'].includes(type)){
+    return renderMedia(block);
+  }
+
+  return '';
+}
+
+function coverMarkup(post){
+  const src = safeUrl(post.cover);
+  if(!src) return '';
+  return '<div class="cover"><img src="'+esc(src)+'" alt="'+esc(post.title || 'Blog cover')+'" loading="lazy" decoding="async"></div>';
+}
+
+function applyTheme(){
+  let saved = '';
+  try{ saved = localStorage.getItem('shashank-blog-theme') || ''; }catch(e){}
+  if(saved === 'light') document.body.classList.add('light');
+  $('themeBtn').textContent = document.body.classList.contains('light') ? 'DARK MODE' : 'LIGHT MODE';
+}
+
+function toggleTheme(){
+  const light = document.body.classList.toggle('light');
+  try{ localStorage.setItem('shashank-blog-theme', light ? 'light' : 'dark'); }catch(e){}
+  $('themeBtn').textContent = light ? 'DARK MODE' : 'LIGHT MODE';
+}
+
+function render(){
+  document.title = site.title || 'Shashank — Blog';
+  $('pageTitle').textContent = site.title || 'Shashank — Blog';
+  $('metaDescription').setAttribute('content', site.description || '');
+
+  $('intro').textContent = site.subtitle || '';
+  $('about').innerHTML = String(site.about || '')
+    .split(/\n\s*\n/)
+    .filter(Boolean)
+    .map(p => '<p>'+esc(p)+'</p>')
+    .join('');
+
+  posts = posts
+    .filter(p => p && p.published !== false)
+    .sort((a,b) => String(b.date || '').localeCompare(String(a.date || '')))
+    .map((p,i) => ({...p, number:Number(p.number) || i+1}));
+
+  $('count').textContent = posts.length;
+  $('postCount').textContent = posts.length + ' POST' + (posts.length === 1 ? '' : 'S');
+  $('latest').textContent = posts[0] ? dateShort(posts[0].date) : '—';
+  $('year').textContent = new Date().getFullYear();
+
+  const categories = [...new Set(
+    posts.map(p => String(p.category || '').trim()).filter(Boolean)
+  )];
+
+  $('category').innerHTML =
+    '<option value="all">All categories</option>' +
+    categories.map(c => '<option value="'+esc(c.toLowerCase())+'">'+esc(c)+'</option>').join('');
+
+  const featured = posts.find(p => p.featured) || posts[0];
+
+  $('featured').innerHTML = featured
+    ? '<article class="featured">'+
+        '<a class="featured-link" href="#'+encodeURIComponent(featured.id)+'" data-open="'+esc(featured.id)+'">'+
+          '<h2 class="featured-title">'+esc(featured.title)+'</h2>'+
+          '<p class="excerpt">'+esc(featured.excerpt || '')+'</p>'+
+          '<div class="meta">'+
+            '<span>'+dateLong(featured.date)+'</span><span class="dot">·</span>'+
+            '<span>'+esc(featured.category || 'BLOG')+'</span><span class="dot">·</span>'+
+            '<span>'+esc(featured.readTime || '')+'</span>'+
+          '</div>'+
+          coverMarkup(featured)+
+        '</a>'+
+      '</article>'
+    : '<div class="empty">No published posts yet.</div>';
+
+  renderPosts();
+}
+
+function renderPosts(){
+  const q = $('search').value.trim().toLowerCase();
+  const category = $('category').value;
+
+  const filtered = posts.filter(post => {
+    const text = [post.title,post.excerpt,post.category].map(x=>String(x||'').toLowerCase()).join(' ');
+    return (!q || text.includes(q)) &&
+      (category === 'all' || String(post.category || '').toLowerCase() === category);
+  });
+
+  $('posts').innerHTML = filtered.length
+    ? filtered.map(post =>
+        '<article class="post">'+
+          '<div class="post-number">#'+String(post.number).padStart(3,'0')+
+            '<span class="post-date">'+dateShort(post.date)+'</span>'+
+          '</div>'+
+          '<a class="post-link" href="#'+encodeURIComponent(post.id)+'" data-open="'+esc(post.id)+'">'+
+            '<h3 class="post-title">'+esc(post.title)+'</h3>'+
+            '<p class="post-excerpt">'+esc(post.excerpt || '')+'</p>'+
+            '<div class="meta"><span>'+esc(post.category || 'BLOG')+'</span><span class="dot">·</span><span>'+esc(post.readTime || '')+'</span></div>'+
+          '</a>'+
+        '</article>'
+      ).join('')
+    : '<div class="empty">No posts match that search.</div>';
+
+  document.querySelectorAll('[data-open]').forEach(el => {
+    el.addEventListener('click', event => {
+      event.preventDefault();
+      const post = posts.find(p => p.id === el.dataset.open);
+      if(post) openPost(post);
+    });
+  });
+}
+
+function openPost(post){
+  const index = posts.findIndex(p => p.id === post.id);
+  const previous = index > 0 ? posts[index-1] : null;
+  const next = index < posts.length-1 ? posts[index+1] : null;
+  const media = Array.isArray(post.media) ? post.media : [];
+
+  const attached = media.length
+    ? '<div class="label">ATTACHED FILES</div>'+media.map(renderMedia).join('')
+    : '';
+
+  $('article').innerHTML =
+    '<div class="label">POST #'+String(post.number).padStart(3,'0')+' / '+esc(post.category || 'BLOG')+'</div>'+
+    '<h1>'+esc(post.title)+'</h1>'+
+    '<p class="excerpt">'+esc(post.excerpt || '')+'</p>'+
+    '<div class="meta"><span>'+dateLong(post.date)+'</span><span class="dot">·</span><span>'+esc(post.readTime || '')+'</span></div>'+
+    (post.cover ? coverMarkup(post) : '')+
+    '<div class="article-content">'+
+      (Array.isArray(post.content) ? post.content.map(renderContent).join('') : '')+
+    '</div>'+
+    attached+
+    '<nav class="article-nav" aria-label="Post navigation">'+
+      (next ? '<a href="#'+encodeURIComponent(next.id)+'" data-next="'+esc(next.id)+'">← '+esc(next.title)+'</a>' : '<span></span>')+
+      (previous ? '<a href="#'+encodeURIComponent(previous.id)+'" data-next="'+esc(previous.id)+'">'+esc(previous.title)+' →</a>' : '<span></span>')+
+    '</nav>';
+
+  $('article').querySelectorAll('[data-next]').forEach(el => {
+    el.addEventListener('click', e => {
+      e.preventDefault();
+      const p = posts.find(x => x.id === el.dataset.next);
+      if(p) openPost(p);
+    });
+  });
+
+  $('reader').classList.add('open');
+  $('reader').setAttribute('aria-hidden','false');
+  document.body.classList.add('modal-open');
+  history.pushState({blogPost:post.id},'', '#'+encodeURIComponent(post.id));
+  $('reader').scrollTop = 0;
+}
+
+function closeReader(updateUrl=true){
+  $('reader').classList.remove('open');
+  $('reader').setAttribute('aria-hidden','true');
+  document.body.classList.remove('modal-open');
+
+  if(updateUrl){
+    history.pushState({},'',location.pathname+location.search);
+  }
+}
+
+async function fetchJson(){
+  let lastError = null;
+
+  for(const url of JSON_CANDIDATES){
+    try{
+      const response = await fetch(url,{cache:'no-store'});
+      if(!response.ok) throw new Error('HTTP '+response.status);
+      const data = await response.json();
+      jsonBaseUrl = url;
+      return data;
+    }catch(error){
+      lastError = error;
+    }
+  }
+
+  throw lastError || new Error('Could not load blogs.json');
+}
+
+function showLoadError(error){
+  console.error('Blog loading error:',error);
+
+  $('intro').textContent = 'The blog data could not be loaded.';
+  $('featured').innerHTML =
+    '<div class="error">'+
+      '<strong>Could not load blogs.json.</strong><br><br>'+
+      'Expected file: <code>blog/blogs.json</code><br>'+
+      'Expected page: <code>blog/index.html</code><br><br>'+
+      'Error: '+esc(error?.message || 'Unknown error')+
+    '</div>';
+  $('posts').innerHTML = '';
+}
+
+async function load(){
+  try{
+    const data = await fetchJson();
+
+    /*
+      This exactly matches your uploaded JSON:
+      {
+        "site": {...},
+        "settings": {...},
+        "posts": [...]
+      }
+    */
+    site = data?.site && typeof data.site === 'object' ? data.site : {};
+    posts = Array.isArray(data?.posts) ? data.posts : [];
+
+    if(!Array.isArray(data?.posts)){
+      throw new Error('blogs.json was found, but "posts" is not an array.');
+    }
+
+    render();
+
+    const hash = decodeURIComponent(location.hash.slice(1));
+    if(hash){
+      const post = posts.find(p => p.id === hash);
+      if(post) openPost(post);
+    }
+  }catch(error){
+    showLoadError(error);
+  }
+}
+
+$('themeBtn').addEventListener('click',toggleTheme);
+$('closeBtn').addEventListener('click',()=>closeReader(true));
+$('search').addEventListener('input',renderPosts);
+$('category').addEventListener('change',renderPosts);
+
+window.addEventListener('keydown',event=>{
+  if(event.key === 'Escape' && $('reader').classList.contains('open')){
+    closeReader(true);
+  }
+});
+
+window.addEventListener('popstate',()=>{
+  const hash = decodeURIComponent(location.hash.slice(1));
+  if(hash){
+    const post = posts.find(p => p.id === hash);
+    if(post) openPost(post);
+  }else if($('reader').classList.contains('open')){
+    closeReader(false);
+  }
+});
+
+applyTheme();
+load();
+})();
+</script>
+</body>
+</html>
