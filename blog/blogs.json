@@ -51,7 +51,13 @@
         {"type":"paragraph","text":"This is mine."},
         {"type":"paragraph","text":"Let's see where it goes."}
       ],
-      "media": ["blog/media/Thank-you-Seth-Godin.png"]
+      "media": [
+        {
+    "type": "image",
+    "src": "media/Thank-you-Seth-Godin.png",
+    "alt": "Thank You Seth Godin"
+  }
+      ]
     }
   ]
 }
