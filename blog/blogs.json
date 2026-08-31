@@ -50,6 +50,11 @@
         {"type":"paragraph","text":"Anyway, welcome."},
         {"type":"paragraph","text":"This is mine."},
         {"type":"paragraph","text":"Let's see where it goes."}
+        {
+  "type": "youtube",
+  "url": "https://youtu.be/xBIVlM435Zg",
+  "title": "SethGodin-Ted"
+}
       ],
       "media": [
         {
