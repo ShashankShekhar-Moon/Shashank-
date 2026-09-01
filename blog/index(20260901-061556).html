@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" id="metaDescription" content="A public blog by Shashank Shekhar.">
+<meta name="theme-color" content="#050505">
+<title id="pageTitle">Shashank — Blog</title>
+<style>
+:root{
+  --bg:#050505;--surface:#0b0d0b;--surface2:#111411;--text:#f4f5ef;
+  --soft:#a8ada5;--muted:#727970;--line:#242824;--line2:#383e37;
+  --accent:#b8ff4a;--pink:#ff6fb5;--content:1120px;--reader:800px;--radius:12px
+}
+*{box-sizing:border-box}
+html{background:var(--bg);scroll-behavior:smooth;overflow-x:hidden}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.7;overflow-x:hidden}
+body.pink{--accent:var(--pink)}
+a{color:inherit;text-decoration:none}button,input{font:inherit}button{cursor:pointer}
+img,video,iframe{max-width:100%}::selection{background:var(--accent);color:#000}
+.shell{width:min(var(--content),calc(100vw - 40px));margin:auto}
+.topbar{position:sticky;top:0;z-index:50;min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 max(5vw,20px);border-bottom:1px solid var(--line);background:rgba(5,5,5,.94);backdrop-filter:blur(16px)}
+.brand{font-weight:950;letter-spacing:-.065em;font-size:15px}.brand span{color:var(--accent)}
+.nav{display:flex;gap:8px}.btn{min-height:40px;padding:0 13px;border:1px solid var(--line2);border-radius:7px;background:transparent;color:var(--soft);font:800 9px ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase}
+.btn:hover,.btn:focus-visible{border-color:var(--accent);color:var(--accent);outline:none}
+.hero{padding:90px 0 72px;border-bottom:1px solid var(--line)}
+.eyebrow,.label,.meta{font:900 10px ui-monospace,monospace;letter-spacing:.18em;text-transform:uppercase}
+.eyebrow,.label{color:var(--accent)}
+.hero h1{margin:20px 0 0;max-width:1000px;font-size:clamp(4rem,11vw,9rem);line-height:.82;letter-spacing:-.105em}
+.hero h1 span{color:var(--accent)}
+.intro{max-width:760px;margin:28px 0 0;color:var(--soft);font-size:clamp(1rem,1.8vw,1.18rem);line-height:1.85}
+.stats{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:28px;color:var(--muted);font:800 9px ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase}.stats strong{color:var(--text)}
+.search-wrap{position:sticky;top:68px;z-index:40;padding:18px 0;background:linear-gradient(var(--bg) 72%,transparent);margin-bottom:18px}
+.search-box{display:flex;align-items:center;border:1px solid var(--line2);border-radius:9px;background:var(--surface);overflow:hidden;transition:.18s}
+.search-box:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 10%,transparent)}
+.search-icon{padding-left:16px;color:var(--muted);font-size:17px}.search{width:100%;height:52px;border:0;outline:0;background:transparent;color:var(--text);padding:0 14px;font-size:16px}.search::placeholder{color:var(--muted)}
+.results{font:800 9px ui-monospace,monospace;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin:10px 2px 0}
+.post{display:grid;grid-template-columns:180px minmax(0,1fr);gap:34px;padding:34px 0;border-bottom:1px solid var(--line)}
+.post-side{color:var(--muted);font:800 9px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase}
+.post-side .num{color:var(--accent);font-size:11px}.post-side time{display:block;margin-top:8px;line-height:1.5}
+.post-main{min-width:0}.post-title{margin:0;font-size:clamp(2rem,4vw,4rem);line-height:.95;letter-spacing:-.07em}.post-title:hover{color:var(--accent)}
+.excerpt{margin:14px 0 0;color:var(--soft);font-size:1rem;line-height:1.75}
+.thumbnail{display:block;width:100%;margin:24px 0 0;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);overflow:hidden}
+.thumbnail img,.thumbnail video{display:block;width:100%;height:auto;max-height:560px;object-fit:contain}
+.article-content{margin-top:26px}.article-content p{margin:0 0 25px;color:var(--soft);font-size:1.08rem;line-height:1.95;overflow-wrap:anywhere}.article-content p:last-child{margin-bottom:0}
+.media{margin:32px 0}.media img,.media video{display:block;width:100%;max-height:760px;object-fit:contain;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+.media audio{display:block;width:100%}.caption{margin-top:8px;color:var(--muted);font:700 9px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase}
+.yt{position:relative;width:100%;aspect-ratio:16/9;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#000}.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.file{padding:18px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}.file a{display:inline-block;margin-top:10px;padding:8px 11px;border:1px solid var(--line2);border-radius:7px;font:800 9px ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase}.file a:hover{border-color:var(--accent);color:var(--accent)}
+.empty{padding:55px 0;color:var(--muted);border-bottom:1px solid var(--line)}
+footer{padding:45px 0 70px;color:var(--muted);font-size:11px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}footer strong{color:var(--text)}
+.reader{position:fixed;inset:0;z-index:100;background:var(--bg);display:none;overflow:auto}.reader.open{display:block}.readerbar{position:sticky;top:0;z-index:5;min-height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 max(5vw,20px);border-bottom:1px solid var(--line);background:rgba(5,5,5,.95);backdrop-filter:blur(16px)}
+.article{width:min(var(--reader),calc(100vw - 40px));margin:auto;padding:70px 0 110px}.article h1{margin:18px 0;font-size:clamp(3rem,8vw,6.8rem);line-height:.86;letter-spacing:-.09em;overflow-wrap:anywhere}.article-meta{color:var(--muted);font:800 9px ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase}
+.article-actions{display:flex;gap:8px;flex-wrap:wrap;margin:25px 0 0}.local-box{margin-top:35px;padding:20px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+.like-btn.liked{border-color:var(--accent);color:var(--accent)}.comment-box{display:flex;gap:8px;margin-top:12px}.comment-box input{flex:1;min-width:0;height:42px;border:1px solid var(--line2);border-radius:7px;background:var(--surface2);color:var(--text);padding:0 12px}.comment-list{margin-top:15px;display:grid;gap:8px}.comment{padding:10px 12px;border:1px solid var(--line);border-radius:7px;color:var(--soft);font-size:.9rem}
+@media(max-width:700px){
+ .shell{width:calc(100vw - 32px)}.topbar,.readerbar{min-height:62px}.nav .back{display:none}.hero{padding:62px 0 55px}.hero h1{font-size:clamp(3.5rem,17vw,6rem)}
+ .search-wrap{top:62px}.post{grid-template-columns:1fr;gap:12px;padding:25px 0}.post-side{display:flex;gap:10px;align-items:center}.post-side time{margin:0}.post-title{font-size:clamp(2rem,10vw,3.2rem)}
+ .article{padding:48px 0 80px}.article h1{font-size:clamp(2.8rem,13vw,5rem)}.article-content p{font-size:1rem;line-height:1.85}.comment-box{flex-direction:column}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../">SHASHANK<span>.</span></a>
+  <nav class="nav">
+    <a class="btn back" href="../">MAIN SITE</a>
+    <button class="btn" id="pinkBtn" type="button">PINK</button>
+  </nav>
+</header>
+
+<main class="shell">
+<section class="hero">
+  <div class="eyebrow">A PUBLIC BLOG BY SHASHANK SHEKHAR</div>
+  <h1>IDEAS.<br><span>EXPERIMENTS.</span><br>OBSERVATIONS.</h1>
+  <p class="intro" id="intro">Loading…</p>
+  <div class="stats">
+    <span>POSTS <strong id="count">—</strong></span><span>LATEST <strong id="latest">—</strong></span><span>WORDS & CURIOSITY</span>
+  </div>
+</section>
+
+<section>
+  <div class="search-wrap">
+    <div class="search-box"><span class="search-icon">⌕</span><input class="search" id="search" type="search" placeholder="Search anything…" autocomplete="off" aria-label="Search all blog content"></div>
+    <div class="results" id="results">ALL POSTS</div>
+  </div>
+  <div id="posts"></div>
+</section>
+</main>
+
+<footer class="shell"><div><strong>Shashank Shekhar</strong> · A little corner of the internet.</div><div>© <span id="year"></span></div></footer>
+
+<div class="reader" id="reader" aria-hidden="true">
+  <div class="readerbar"><a class="brand" href="../">SHASHANK<span>.</span></a><button class="btn" id="closeBtn" type="button">← BACK TO POSTS</button></div>
+  <article class="article" id="article"></article>
+</div>
+
+<script>
+(()=> {
+'use strict';
+const candidates=[new URL('./blogs.json',location.href).href,new URL('/blog/blogs.json',location.origin).href];
+let base='',data={site:{},settings:{},posts:[]},posts=[];
+const $=id=>document.getElementById(id);
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function url(v){try{const u=new URL(String(v||'').trim(),base||location.href);return ['http:','https:'].includes(u.protocol)?u.href:''}catch{return ''}}
+function date(v){const d=new Date(String(v||'')+'T00:00:00');return isNaN(d)?'—':d.toLocaleDateString(undefined,{day:'2-digit',month:'long',year:'numeric'})}
+function slug(v){return String(v||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()}
+function ext(v){return (String(v||'').split('?')[0].split('#')[0].split('.').pop()||'').toLowerCase()}
+function youtube(v){try{const u=new URL(v);if(u.hostname.includes('youtu.be'))return u.pathname.slice(1).split('/')[0];if(u.hostname.includes('youtube.com'))return u.searchParams.get('v')||u.pathname.split('/').filter(Boolean).pop()}catch{}return ''}
+function mediaHtml(m){
+ const type=String(m?.type||'auto').toLowerCase(), src=url(m?.src||m?.url||''); if(!src)return '';
+ if(type==='youtube'||youtube(src)){const id=youtube(src);if(!id)return '';return `<div class="media"><div class="yt"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(id)}" title="${esc(m.title||'YouTube video')}" loading="lazy" allowfullscreen></iframe></div>${m.title?`<div class="caption">${esc(m.title)}</div>`:''}</div>`}
+ if(type==='instagram'){return `<div class="media file"><strong>${esc(m.title||'Instagram')}</strong><br><a href="${esc(src)}" target="_blank" rel="noopener">OPEN LINK</a></div>`}
+ const e=ext(src), cap=m.title||m.caption||'';
+ if(type==='image'||['jpg','jpeg','png','gif','webp','avif','svg'].includes(e))return `<div class="media"><img src="${esc(src)}" alt="${esc(m.alt||cap||'Blog image')}" loading="lazy">${cap?`<div class="caption">${esc(cap)}</div>`:''}</div>`;
+ if(type==='video'||['mp4','webm','mov','m4v','ogg'].includes(e))return `<div class="media"><video src="${esc(src)}" controls playsinline preload="metadata"></video>${cap?`<div class="caption">${esc(cap)}</div>`:''}</div>`;
+ if(type==='audio'||['mp3','wav','m4a','aac','flac','oga'].includes(e))return `<div class="media"><audio src="${esc(src)}" controls preload="metadata"></audio>${cap?`<div class="caption">${esc(cap)}</div>`:''}</div>`;
+ if(type==='pdf'||e==='pdf')return `<div class="media"><iframe src="${esc(src)}" title="${esc(cap||'PDF')}" style="width:100%;height:min(75vh,760px);border:1px solid var(--line);border-radius:var(--radius);background:#fff"></iframe><div class="file"><strong>${esc(cap||'PDF document')}</strong><br><a href="${esc(src)}" target="_blank" rel="noopener">OPEN / DOWNLOAD</a></div></div>`;
+ return `<div class="media file"><strong>${esc(cap||m.name||'File')}</strong><br><a href="${esc(src)}" target="_blank" rel="noopener">OPEN / DOWNLOAD</a></div>`;
+}
+function paragraphs(text){return String(text||'').split(/\n\s*\n+/).map(x=>x.trim()).filter(Boolean).map(x=>`<p>${esc(x).replace(/\n/g,'<br>')}</p>`).join('')}
+function searchable(p){return slug([p.title,p.excerpt,p.category,p.date,p.content,...(p.tags||[]),...(p.media||[]).map(m=>[m.title,m.alt,m.caption,m.src,m.url].join(' '))].join(' '))}
+function render(list){
+ const root=$('posts'); $('results').textContent=list.length===posts.length?'ALL POSTS':`${list.length} MATCHING POST${list.length===1?'':'S'}`;
+ if(!list.length){root.innerHTML='<div class="empty">No posts matched your search.</div>';return}
+ root.innerHTML=list.map((p,i)=>`<article class="post">
+   <aside class="post-side"><div class="num">${String(i+1).padStart(2,'0')}</div><time>${esc(date(p.date))}</time><div>${esc(p.category||'POST')}</div></aside>
+   <div class="post-main"><a href="#${encodeURIComponent(p.id)}" class="open-post"><h2 class="post-title">${esc(p.title)}</h2></a>
+   ${p.excerpt?`<p class="excerpt">${esc(p.excerpt)}</p>`:''}
+   ${p.thumbnail?`<a href="#${encodeURIComponent(p.id)}" class="thumbnail"><img src="${esc(url(p.thumbnail))}" alt="${esc(p.title)}" loading="lazy"></a>`:''}
+   </div></article>`).join('');
+ root.querySelectorAll('.open-post,.thumbnail').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();openPost(decodeURIComponent(a.getAttribute('href').slice(1)))}));
+}
+function openPost(id){
+ const p=posts.find(x=>x.id===id);if(!p)return;
+ const key='shashank_blog_local_'+p.id, saved=JSON.parse(localStorage.getItem(key)||'{"liked":false,"comments":[]}');
+ $('article').innerHTML=`<div class="label">${esc(p.category||'POST')}</div><h1>${esc(p.title)}</h1><div class="article-meta">${esc(date(p.date))}</div>
+ ${p.thumbnail?`<div class="thumbnail"><img src="${esc(url(p.thumbnail))}" alt="${esc(p.title)}"></div>`:''}
+ <div class="article-content">${paragraphs(p.content)}</div>
+ ${(p.media||[]).map(mediaHtml).join('')}
+ <div class="local-box"><div class="label">ON THIS DEVICE</div>
+ <div class="article-actions"><button class="btn like-btn ${saved.liked?'liked':''}" id="likeBtn">♡ LIKE <span id="likeCount">${saved.liked?'1':'0'}</span></button></div>
+ <div class="comment-box"><input id="commentInput" maxlength="500" placeholder="Write a comment…"><button class="btn" id="commentBtn">SAVE COMMENT</button></div>
+ <div class="comment-list" id="commentList">${(saved.comments||[]).map(c=>`<div class="comment">${esc(c)}</div>`).join('')}</div>
+ <div class="caption">Likes and comments are stored only in this browser. They are not public.</div></div>`;
+ $('likeBtn').onclick=()=>{saved.liked=!saved.liked;localStorage.setItem(key,JSON.stringify(saved));openPost(id)}
+ $('commentBtn').onclick=()=>{const v=$('commentInput').value.trim();if(!v)return;saved.comments.push(v);localStorage.setItem(key,JSON.stringify(saved));openPost(id)}
+ $('reader').classList.add('open');$('reader').setAttribute('aria-hidden','false');document.body.style.overflow='hidden';history.replaceState(null,'','#'+encodeURIComponent(id));
+}
+function close(){ $('reader').classList.remove('open');$('reader').setAttribute('aria-hidden','true');document.body.style.overflow='';history.replaceState(null,'',location.pathname+location.search)}
+async function load(){
+ let last;
+ for(const c of candidates){try{const r=await fetch(c,{cache:'no-store'});if(!r.ok)continue;data=await r.json();base=new URL(c).href;break}catch(e){last=e}}
+ posts=(data.posts||[]).filter(p=>p&&p.published!==false);
+ $('intro').textContent=data.site?.subtitle||'Ideas, experiments, observations and things worth keeping.';
+ $('count').textContent=posts.length;$year.textContent=new Date().getFullYear();
+ $('latest').textContent=posts.length?date([...posts].sort((a,b)=>String(b.date).localeCompare(String(a.date)))[0].date):'—';
+ render(posts);
+ const hash=decodeURIComponent(location.hash.slice(1));if(hash)openPost(hash);
+ if(data.settings?.pinkAccent && localStorage.getItem('shashank_blog_pink')==='1')document.body.classList.add('pink');
+}
+$('search').addEventListener('input',()=>{const q=slug($('search').value);render(q?posts.filter(p=>searchable(p).includes(q)):posts)});
+$('pinkBtn').onclick=()=>{document.body.classList.toggle('pink');localStorage.setItem('shashank_blog_pink',document.body.classList.contains('pink')?'1':'0')};
+$('closeBtn').onclick=close;window.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+load().catch(()=>{$('posts').innerHTML='<div class="empty">Could not load blogs.json. Check that it is in the same folder as index.html.</div>'});
+})();
+</script>
+</body>
+</html>
