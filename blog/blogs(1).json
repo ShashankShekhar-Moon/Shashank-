@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "Shashank — Blog",
+    "subtitle": "Ideas, experiments, observations and things worth keeping.",
+    "description": "A public blog by Shashank Shekhar.",
+    "author": "Shashank Shekhar"
+  },
+  "settings": {
+    "theme": "dark",
+    "pinkAccent": true
+  },
+  "posts": [
+    {
+      "id": "why-i-made-this-little-corner",
+      "published": true,
+      "title": "Why I Made This Little Corner of the Internet",
+      "date": "2026-08-31",
+      "category": "PERSONAL",
+      "thumbnail": "media/First_Blog.png",
+      "excerpt": "I wanted a small place on the internet that is actually mine — a place for ideas, experiments, things I'm learning, and thoughts worth keeping.",
+      "content": "I have always liked the idea of having a small place on the internet that is actually mine.\n\nNot a profile. Not a feed. Not a place where an algorithm decides what deserves attention. Just a website, sitting somewhere on the internet, with my name on it.\n\nI made this blog for the things that don't have an obvious place to go.\n\nIdeas I can't stop thinking about. Things I'm building. Things I'm learning. Experiments that work, experiments that fail, and the strange things I discover somewhere in between. Sometimes it might be technology. Sometimes it might be a project. Sometimes it might be an observation that would never be worth turning into a social media post.\n\nAnd sometimes it might be nothing particularly important at all.\n\nI don't want this to become a content machine.\n\nI don't want to have to publish every Tuesday. I don't want to write something just because the calendar says I should. And I don't want to turn every thought into a lesson, a thread, a headline, or something designed to get attention.\n\nI just want a place to write.\n\nThe internet once felt a little more like this to me. People made websites because they wanted to make websites. They wrote because they had something to say. They built strange little projects, experimented with ideas, and left pieces of themselves scattered across the web.\n\nI miss that feeling.\n\nSo this is my attempt to make a small version of it.\n\nThis blog is a place for me to think in public, build in public, and keep a record of where my mind has been.\n\nSome posts might be carefully thought out. Others might be messy. Some ideas might turn into something bigger. Others might disappear after I write them down.\n\nThat's fine.\n\nNot everything needs to become something.\n\nMaybe nobody reads some of these posts. Honestly, that's okay too.\n\nBecause there is another reason I'm writing them.\n\nOne day, years from now, I might come back here and read something written by the person I am today. I might disagree with him. I might laugh at him. I might wonder why he ever thought that way.\n\nBut I'll know him.\n\nI'll be able to see what I was thinking, what I was trying to build, what I cared about, and what I didn't yet understand.\n\nMaybe that's what this place is really for.\n\nNot an audience.\n\nA record.\n\nA little corner of the internet where I can leave things behind.\n\nAnyway, welcome.\n\nThis is mine.\n\nLet's see where it goes.",
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/xBIVlM435Zg",
+          "title": "Seth Godin — TED"
+        },
+        {
+          "type": "image",
+          "src": "media/Thank-you-Seth-Godin.png",
+          "alt": "Thank You Seth Godin"
+        }
+      ]
+    }
+  ]
+}
