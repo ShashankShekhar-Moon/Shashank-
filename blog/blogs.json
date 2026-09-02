@@ -51,6 +51,11 @@
           "type": "image",
           "src": "media/Steve_Jobs.png",
           "alt": "Steve Jobs"
+        },
+        {
+          "type": "pdf",
+          "src": "media/Steve_Jobs.pdf",
+          "alt": "Steve Jobs"
         }
       ]
     }
